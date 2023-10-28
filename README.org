@@ -5,8 +5,15 @@ Still work in pogress.
 This website is using [[https://www.getlektor.com/][Lektor]].
 
 
-* Build & run the blog
+* Run the blog
 
 #+BEGIN_SRC shell
 lektor server
+#+END_SRC
+
+* Build website source 
+
+#+BEGIN_SRC shell
+lektor build --output-path ../genekao.github.io # build website source to directory
+# git checkout CNAME 
 #+END_SRC
