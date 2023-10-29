@@ -1,0 +1,33 @@
+title: Rhino.Python
+---
+pub_date: 2014-11-30 00:00
+---
+author: 
+---
+category: Tutorial
+---
+tags: 
+---
+summary: Rhino.Python examples -
+[i](rhinopython-1d-2d-3d),
+[ii](rhinopython-swarm-bridge),
+[iii](rhinopython-tessellation-and-subdivision-first-version),
+[iv](rhinopython-mesh-boy-surface-subdivision-and-analysis).
+---
+body:
+
+
+These are my Rhino.Python practice while I studied at Stuttgart University. 
+
+* [Rhino.Python - 1D 2D 3D](rhinopython-1d-2d-3d)
+* [Rhino.Python - Swarm bridge](rhinopython-swarm-bridge)
+* [Rhino.Python - tessellation and subdivision](rhinopython-tessellation-and-subdivision-first-version)
+* [Rhino.Python - Boy Surface and subdivision](rhinopython-mesh-boy-surface-subdivision-and-analysis)
+
+
+
+
+---
+labels: python, uni-stuttgart, rhino-grasshopper, computational-design, design
+---
+metadesc: rhino.python

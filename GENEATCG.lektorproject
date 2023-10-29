@@ -1,17 +1,37 @@
 [project]
-name = GENEATCG
-url_style = absolute
+name = geneatcg.com
+themes = lektor-icon
 url = https://genekao.github.io/
-
 
 [packages]
 lektor-google-analytics = 0.1.3
-lektor-atom = 0.4
-lektor-minify = 1.2
-lektor-markdown-highlighter = 0.3
 
 [servers.ghpages]
+enabled = yes
+name = Production
 target = ghpages+https://GeneKao/genekao.github.io?cname=www.geneatcg.com
+default = yes
 
-
-
+[theme_settings]
+title = GENEATCG
+content_lang = en-US
+author = Gene Ting-Chun Kao
+copyright = &copy; 2023 Gene Ting-Chun Kao
+description =  
+keywords = 
+favicon_path =
+theme_accent_color = #cd0067
+theme_pipe_color = #0067cd
+custom_css = /static/css/custom-styles.css
+content_security_policy = false
+content_security_policy_frame_src =
+content_security_policy_script_src =
+content_security_policy_style_src =
+loader_enable = true
+nav_logo_path = 
+nav_logo_text = GENEATCG
+nav_extralinks = Portfolio: https://geneatcg.com/portfolio
+footer_links = GitHub: https://github.com/GeneKao, LinkedIn: https://www.linkedin.com/in/kaogene
+gitter_room = 
+disqus_name =
+atom_enable =

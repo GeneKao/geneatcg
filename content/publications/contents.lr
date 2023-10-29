@@ -1,9 +1,10 @@
-_model:
-
-page
-title: Publications
+_model: page
 ---
-labels: research
+sort_key: 2
+---
+short_title: Publications
+---
+full_title: Publications
 ---
 body:
 
@@ -89,18 +90,5 @@ Wang, Xiang, Kam-Ming Mark Tam, Alexandre Beaudouin-Mackay, Benjamin Hoyle, Moll
 
 Kao, Gene TC, Axel Körner, Daniel Sonntag, Long Nguyen, Achim Menges, and Jan Knippers. "Assembly-aware design of masonry shell structures: a computational approach." In Proceedings of IASS Annual Symposia, vol. 2017, no. 23, pp. 1-10. International Association for Shell and Spatial Structures (IASS), 2017.
 
-----
+
 ---
-pub_date: 2017-10-31
----
-last_updated_date: 2020-04-05
----
-_hidden: no
----
-_discoverable: no
----
-metadesc: publications
----
-modified_date: 2021-06-06
----
-title: Publications

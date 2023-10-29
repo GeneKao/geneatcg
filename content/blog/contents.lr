@@ -1,0 +1,12 @@
+_model: blog
+---
+sort_key: 1
+---
+short_title: Blog
+---
+allow_comments_default: true
+---
+
+
+
+

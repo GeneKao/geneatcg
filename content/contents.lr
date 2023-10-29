@@ -1,5 +1,134 @@
-_model: blog
+_model: single-layout
 ---
-title: Blog
+
+
+show_home_nav: true
 ---
-metadesc: Blog posts of Gene Ting-Chun Kao
+hero_title: 
+---
+hero_description:
+---
+hero_image: cover.png
+---
+starting_block_bg: light
+---
+
+
+
+main_content:
+
+#### content ####
+title: Overview
+----
+description: 
+----
+nav_label: Overview
+----
+section_id: overview
+----
+content:   
+geneatcg, Gene at CG - Computational Geometry / Computer Graphics, gene - ATCG.
+----
+
+
+
+#### services ####
+title: Latest works
+----
+description: 
+----
+nav_label: works
+----
+section_id: works
+----
+video_url: 
+----
+services:
+
+##### service #####
+title: PhD dissertation
+-----
+description: 
+Stability Assessment of Discrete Shell Structures during Assembly
+-----
+icon: publications/phd.jpg
+-----
+url: https://www.research-collection.ethz.ch/handle/20.500.11850/620646
+-----
+
+##### service #####
+title: Coupled Rigid-Block Analysis
+-----
+description: 
+Coupled Rigid-Block Analysis: Stability-Aware Design of Complex Discrete-Element Assemblies
+-----
+icon: publications/cra_bridge.png
+-----
+url: https://doi.org/10.1016/j.cad.2022.103216
+-----
+
+##### service #####
+title: COMPAS CRA
+-----
+description: 
+COMPAS CRA: Coupled Rigid-Block Analysis (CRA) for the COMPAS framework
+-----
+icon: 
+-----
+url: https://github.com/BlockResearchGroup/compas_cra
+-----
+
+----
+
+#### multisection ####
+section_id: about
+----
+title: About me
+----
+description:
+Short bio
+----
+nav_label: About
+----
+inner_content:
+
+##### team #####
+section_id: about
+-----
+title:
+-----
+description:
+I am a passionate designer, engineer, and scientist deeply drawn to the world of computational geometry, 3D geometry processing, and simulation. Currently, I am an R&D Engineer II at Ansys - Meshing Development Unit (MDU), where I focus on 3D computational geometry processing topics. I bring diversity and an interdisciplinary perspective to my work and life, with a Doctor of Sciences degree from ETH Zurich, a CAS in Computer Science from the same institution, an MSc in ITECH from Stuttgart University, a BArch from Tamkang University, many international R&D experiences, and lived in Sweden🇸🇪, Switzerland🇨🇭, Germany🇩🇪, and Taiwan🇹🇼. Additionally, I love swimming🏊🏼‍♂️, cooking👨🏻‍🍳, reading📚, games👾, and dogs🐶.
+
+-----
+nav_label: about
+-----
+link_whole_card: true
+-----
+members:
+
+###### member ######
+name: Gene Ting-Chun Kao
+------
+position: 
+------
+description: 
+
+------
+image: Gene.jpg
+------
+url: https://geneatcg.com/resume
+------
+website: https://geneatcg.com
+------
+facebook:
+------
+twitter:
+------
+instagram:
+------
+github: https://github.com/GeneKao
+------
+linkedin: https://www.linkedin.com/in/kaogene
+------
+-----

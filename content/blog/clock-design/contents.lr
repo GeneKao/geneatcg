@@ -1,0 +1,24 @@
+title: Clock Design
+---
+pub_date: 2013-12-12 00:00
+---
+author: 
+---
+category: Tutorial
+---
+tags: programming, processing, design
+---
+summary: Clock graphic design - 
+[i](clockdesign_001_basic), 
+[ii](clockdesign_002_mondaine). 
+---
+body:
+
+Clock Design using Processing
+
+* [clockdesign_001_basic](clockdesign_001_basic)
+![](./clockdesign_001_basic/clockdesign_001_basic.png)
+* [clockdesign_002_mondaine](clockdesign_002_mondaine)
+![](./clockdesign_002_mondaine/mondaine.png)
+---
+labels: programming, processing, design

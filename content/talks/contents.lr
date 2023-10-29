@@ -1,4 +1,10 @@
-_model: title: Talks
+_model: page
+---
+sort_key: 4
+---
+short_title: Talks
+---
+full_title: Talks
 ---
 body:
 
@@ -34,6 +40,3 @@ body:
 ### [Assembly-Aware Design of Masonry Shell Structures: A Computational Approach](https://www.ingentaconnect.com/content/iass/piass/2017/00002017/00000023)
 @ [Pecha Kucha](https://www.pechakucha.com), International Association for Shell and Spatial Structures (IASS),  Hamburg.
 ---
-metadesc: talks
----
-title: Talks
