@@ -2,7 +2,7 @@
 
 Still work in pogress.
 
-This website is using [[https://www.getlektor.com/][Lektor]].
+This website is using [[https://www.getlektor.com/][Lektor]] and [[https://github.com/spyder-ide/lektor-icon][lektor-icon theme]].
 
 
 * Run the blog
