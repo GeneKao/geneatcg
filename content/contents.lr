@@ -18,7 +18,7 @@ starting_block_bg: light
 main_content:
 
 #### content ####
-title: Overview
+title: GENEATCG overview
 ----
 description: 
 ----
@@ -27,7 +27,10 @@ nav_label: Overview
 section_id: overview
 ----
 content:   
-geneatcg, Gene at CG - Computational Geometry / Computer Graphics, gene - ATCG.
+- geneatcg (pronounced 'genetic')
+- gen eat cg 
+- Gene at CG - Computational Geometry / Computer Graphics
+- gene - ATCG.
 ----
 
 
