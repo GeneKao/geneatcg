@@ -1,6 +1,6 @@
 * The source code of my website
 
-Still work in pogress.
+Work in progress.
 
 My website [[https://www.geneatcg.com][GENEATCG]] uses [[https://www.getlektor.com/][Lektor]] and [[https://github.com/spyder-ide/lektor-icon][lektor-icon theme]].
 
@@ -8,12 +8,14 @@ My website [[https://www.geneatcg.com][GENEATCG]] uses [[https://www.getlektor.c
 * Run the blog
 
 #+BEGIN_SRC shell
-lektor server
+/Users/kaot/Documents/GENEATCG/.venv/bin/lektor server --port 8000
 #+END_SRC
+
+Note: Port 5000 is used by a system process, so use 8000. Access at http://127.0.0.1:8000.
 
 * Build website source 
 
 #+BEGIN_SRC shell
-lektor build --output-path ../genekao.github.io # build website source to directory
-# git checkout CNAME 
+/Users/kaot/Documents/GENEATCG/.venv/bin/lektor build --output-path ../genekao.github.io # build website source to directory
+cp CNAME ../genekao.github.io/  # restore CNAME for custom domain
 #+END_SRC
