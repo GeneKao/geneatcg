@@ -17,6 +17,9 @@ jobs:
         with:
           python-version: '3.13'
 
+      - name: Install ImageMagick
+        run: sudo apt-get install -y imagemagick
+
       - name: Install Lektor and plugins
         run: pip install lektor lektor-google-analytics
 
