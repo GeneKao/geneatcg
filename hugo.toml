@@ -1,0 +1,57 @@
+baseURL = 'https://www.geneatcg.com'
+languageCode = 'en-US'
+title = 'GENEATCG'
+theme = 'PaperMod'
+paginate = 10
+enableRobotsTXT = true
+ignoreFiles = ['content/404\\.html', '\\.lr$']
+
+[params]
+  defaultTheme = 'light'
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowToc = false
+  description = "Gene Ting-Chun Kao — Computational Geometry, Geometry Processing, Research"
+  author = "Gene Ting-Chun Kao"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/GeneKao"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/kaogene"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 10
+  [[menu.main]]
+    name = "Resume"
+    url = "/resume/"
+    weight = 20
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 30
+  [[menu.main]]
+    name = "Talks"
+    url = "/talks/"
+    weight = 40
+  [[menu.main]]
+    name = "Portfolio"
+    url = "https://www.geneatcg.com/portfolio"
+    weight = 50
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

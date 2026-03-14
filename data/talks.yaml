@@ -1,0 +1,33 @@
+- year: "2022"
+  items:
+    - title: "A computational design pipeline of 3D discrete-element assemblies in architecture"
+      url: "https://www.block.arch.ethz.ch/brg/content/publication/1223"
+      image: "eccomas.png"
+      venue: "2022 European Congress on Computational Methods in Applied Sciences and Engineering (ECCOMAS), Oslo"
+      venue_url: "https://www.eccomas.org/2022/03/02/eccomas-2022-a-fully-in-person-congress/"
+
+- year: "2021"
+  items:
+    - title: "Assembly-Aware Design of Architecture"
+      url: "https://www.youtube.com/watch?v=JnDJkOqv0KA"
+      image: "comp-fab.png"
+      venue: "Computational Fabrication Seminar"
+      venue_url: "https://computational-fabrication.org/"
+    - title: "設計運算與製造 Design Computing & Fabrication"
+      url: "https://www.facebook.com/578189515652931/photos/a.585594401579109/1931469810324888/"
+      image: "yuntech.jpg"
+      venue: "2021 IDF Entrepreneurs Lecture Series, Taiwan National Yunlin University of Science and Technology"
+      venue_url: "http://dc.yuntech.edu.tw/node/114"
+
+- year: "2019"
+  items:
+    - title: "建築設計、數位製造與電腦科學的跨領域研究 — Interdisciplinary Research in Architecture, Digital Fabrication, and Computer Science"
+      url: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8yYzVlODU0L3BvZGNhc3QvcnNz/episode/YzQwOGVjNTYtZWVkMC05NDQxLTY2YWMtYTVkZmE1NjgzNzRi"
+      image: "human-offshore.jpg"
+      venue: "離島人 | Humans Offshore Podcast"
+
+- year: "2017"
+  items:
+    - title: "Assembly-Aware Design of Masonry Shell Structures: A Computational Approach"
+      url: "https://www.ingentaconnect.com/content/iass/piass/2017/00002017/00000023"
+      venue: "Pecha Kucha, International Association for Shell and Spatial Structures (IASS), Hamburg"

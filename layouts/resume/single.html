@@ -1,0 +1,31 @@
+{{- define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+<div class="resume-section">
+  <p>{{ .Site.Data.resume.bio }}</p>
+
+  <h2>Experience</h2>
+  <div class="timeline">
+    {{ range .Site.Data.resume.experience }}
+    <div class="timeline-item">
+      <div class="timeline-period">{{ .period }}</div>
+      <div class="timeline-role">{{ .role }}</div>
+      <div class="timeline-org">{{ .org }}</div>
+    </div>
+    {{ end }}
+  </div>
+
+  <h2>Education</h2>
+  <div class="timeline">
+    {{ range .Site.Data.resume.education }}
+    <div class="timeline-item">
+      <div class="timeline-period">{{ .period }}</div>
+      <div class="timeline-role">{{ .degree }}</div>
+      <div class="timeline-org">{{ .institution }}</div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{- end }}

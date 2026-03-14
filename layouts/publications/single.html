@@ -1,0 +1,24 @@
+{{- define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+{{ range .Site.Data.publications }}
+<div class="pub-year">{{ .year }}</div>
+<div class="pub-list">
+  {{ range .items }}
+  <div class="pub-card">
+    {{ if .image }}
+    <div class="pub-card-image">
+      <img src="/images/publications/{{ .image }}" alt="{{ .title }}">
+    </div>
+    {{ end }}
+    <div class="pub-card-body">
+      <h3>{{ if .url }}<a href="{{ .url }}" target="_blank">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</h3>
+      <p>{{ .authors }}</p>
+    </div>
+  </div>
+  {{ end }}
+</div>
+{{ end }}
+{{- end }}

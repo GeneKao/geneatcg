@@ -1,0 +1,60 @@
+- year: "2023"
+  items:
+    - title: "Stability Assessment of Discrete Shell Structures during Assembly"
+      url: "https://www.research-collection.ethz.ch/handle/20.500.11850/620646"
+      image: "phd.jpg"
+      authors: "Kao, Gene Ting-Chun. Doctoral dissertation, ETH Zurich (2023)."
+    - title: "Multi-robotic Assembly of Discrete Shell Structures"
+      url: "https://www.degruyter.com/document/doi/10.1515/9783111162683-020/html?lang=en"
+      image: "robot-shell.png"
+      authors: "Wang, Jingwen, Wenjun Liu, Gene Ting-Chun Kao, et al. Advances in Architectural Geometry 2023."
+
+- year: "2022"
+  items:
+    - title: "Coupled Rigid-Block Analysis: Stability-Aware Design of Complex Discrete-Element Assemblies"
+      url: "https://doi.org/10.1016/j.cad.2022.103216"
+      image: "cra_bridge.png"
+      authors: "Kao, Gene Ting-Chun, Antonino Iannuzzo, Bernhard Thomaszewski, et al. Computer-Aided Design 146 (2022)."
+    - title: "A computational design pipeline of 3D discrete-element assemblies in architecture"
+      url: "https://www.eccomas.org/"
+      authors: "Kao, Gene Ting-Chun, Francesco Ranaudo, et al. ECCOMAS, Oslo 2022."
+    - title: "建築與科學 — Architecture and Science: Digital Architecture in ETH Zurich"
+      url: "https://www.geneatcg.com/Kao_TaiwanArchitectMagazine_2022_03_Specialissue"
+      image: "taiwan-architect.png"
+      authors: "Kao, Gene Ting-Chun. Taiwan Architect 567 (2022): 112–115."
+
+- year: "2021"
+  items:
+    - title: "Understanding rigid-block equilibrium method via mathematical programming"
+      url: "https://www.icevirtuallibrary.com/doi/abs/10.1680/jencm.20.00036"
+      image: "rbe-math-opt.png"
+      authors: "Kao, Gene Ting-Chun, Antonino Iannuzzo, et al. Proceedings of the Institution of Civil Engineers 174, no. 4 (2021)."
+    - title: "COMPAS Masonry: a computational framework for practical assessment of unreinforced masonry structures"
+      url: "https://block.arch.ethz.ch/brg/publications/1001"
+      image: "compas-masonry.png"
+      authors: "Iannuzzo, Antonino, Alessandro Dell'Endice, Gene Ting-Chun Kao, et al. SAHC Symposium, 2021."
+
+- year: "2020"
+  items:
+    - title: "3D-printed bending-active formwork for shell structures"
+      url: "https://link.springer.com/chapter/10.1007/978-981-15-6568-7_18"
+      image: "3dprint-shell.png"
+      authors: "Wang, Xiang, Kam-Ming Mark Tam, Gene Ting-Chun Kao, et al. Architectural Intelligence. Springer, Singapore, 2020."
+
+- year: "2019"
+  items:
+    - title: "High-performance corrugated concrete shell construction on bending-actuated robotically 3D-printed formworks"
+      url: "https://www.ingentaconnect.com/content/iass/piass/2019/00002019/00000006/art00008"
+      image: "fu-bridge.jpeg"
+      authors: "Wang, Xiang, Kam-Ming Mark Tam, Gene Ting-Chun Kao, et al. IASS Annual Symposia, 2019."
+    - title: "Tile-vault construction on bending-actuated robotically 3D-printed formwork"
+      url: "https://congress.cimne.com/Formandforce2019/admin/files/fileabstract/a771.pdf"
+      image: "bending-shell.jpeg"
+      authors: "Wang, Xiang, Kam-Ming Mark Tam, Gene Ting-Chun Kao, et al. IASS Symposium, Barcelona, 2019."
+
+- year: "2017"
+  items:
+    - title: "Assembly-aware design of masonry shell structures: a computational approach"
+      url: "https://www.geneatcg.com/assembly-aware-design-of-masonry-shell-structures-a-computational-approach/"
+      image: "aad-masonry-shell.png"
+      authors: "Kao, Gene TC, Axel Körner, Daniel Sonntag, et al. IASS Annual Symposia, 2017."

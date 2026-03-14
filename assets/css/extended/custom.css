@@ -1,0 +1,313 @@
+/* Rose accent color overrides for PaperMod */
+a {
+    color: #e11d48;
+}
+
+a:hover {
+    color: #be123c;
+}
+
+.post-tags a,
+.post-tags a:hover {
+    color: #e11d48;
+    border-color: #e11d48;
+}
+
+.pagination a {
+    color: #e11d48;
+}
+
+/* Homepage hero section */
+.home-hero {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 4rem 0 3rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 3rem;
+}
+
+.home-hero-image {
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #e11d48;
+}
+
+.home-hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-hero-content h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+}
+
+.home-hero-content .subtitle {
+    font-size: 1.1rem;
+    color: var(--secondary);
+    margin-bottom: 1rem;
+}
+
+.home-hero-content p {
+    color: var(--content);
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.hero-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.hero-links a {
+    display: inline-block;
+    padding: 0.5rem 1.2rem;
+    border: 1.5px solid #e11d48;
+    border-radius: 4px;
+    color: #e11d48;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.hero-links a:hover {
+    background: #e11d48;
+    color: white;
+}
+
+/* Works section */
+.works-section {
+    margin-bottom: 3rem;
+}
+
+.works-section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary);
+}
+
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+.work-card {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.2s;
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+.work-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    color: inherit;
+}
+
+.work-card-image {
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+    background: var(--tertiary);
+}
+
+.work-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.work-card-body {
+    padding: 1rem;
+}
+
+.work-card-body h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+}
+
+.work-card-body p {
+    font-size: 0.875rem;
+    color: var(--secondary);
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Publication cards */
+.pub-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.pub-card {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 1.25rem;
+    align-items: start;
+}
+
+.pub-card-image img {
+    width: 200px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 4px;
+    display: block;
+}
+
+.pub-card-body h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.pub-card-body h3 a {
+    color: var(--primary);
+}
+
+.pub-card-body h3 a:hover {
+    color: #e11d48;
+}
+
+.pub-card-body p {
+    font-size: 0.875rem;
+    color: var(--secondary);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.pub-year {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #e11d48;
+    margin: 2rem 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e11d48;
+}
+
+/* Talk cards */
+.talk-card {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+    align-items: start;
+}
+
+.talk-card-image img {
+    width: 220px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.talk-card-body h3 {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+.talk-card-body h3 a {
+    color: var(--primary);
+}
+
+.talk-card-body h3 a:hover {
+    color: #e11d48;
+}
+
+.talk-venue {
+    font-size: 0.85rem;
+    color: #e11d48;
+    margin-bottom: 0.4rem;
+}
+
+/* Resume timeline */
+.resume-section h2 {
+    font-size: 1.3rem;
+    color: #e11d48;
+    border-bottom: 2px solid #e11d48;
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 1.5rem;
+    border-left: 2px solid var(--border);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 1.75rem;
+    padding-left: 1.25rem;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -1.9rem;
+    top: 0.4rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #e11d48;
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px #e11d48;
+}
+
+.timeline-period {
+    font-size: 0.8rem;
+    color: #e11d48;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.timeline-role {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--primary);
+}
+
+.timeline-org {
+    font-size: 0.9rem;
+    color: var(--secondary);
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+    .home-hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+    .hero-links {
+        justify-content: center;
+    }
+    .pub-card,
+    .talk-card {
+        grid-template-columns: 1fr;
+    }
+    .pub-card-image img,
+    .talk-card-image img {
+        width: 100%;
+        height: 200px;
+    }
+}

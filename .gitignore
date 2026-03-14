@@ -2,6 +2,10 @@
 .idea
 .CNAME
 
+# Hugo build output
+/public/
+/resources/
+
 # Mac
 
 # General

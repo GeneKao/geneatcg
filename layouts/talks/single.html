@@ -1,0 +1,22 @@
+{{- define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+{{ range .Site.Data.talks }}
+<div class="pub-year">{{ .year }}</div>
+{{ range .items }}
+<div class="talk-card">
+  {{ if .image }}
+  <div class="talk-card-image">
+    <img src="/images/talks/{{ .image }}" alt="{{ .title }}">
+  </div>
+  {{ end }}
+  <div class="talk-card-body">
+    <h3>{{ if .url }}<a href="{{ .url }}" target="_blank">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</h3>
+    <div class="talk-venue">@ {{ if .venue_url }}<a href="{{ .venue_url }}" target="_blank">{{ .venue }}</a>{{ else }}{{ .venue }}{{ end }}</div>
+  </div>
+</div>
+{{ end }}
+{{ end }}
+{{- end }}

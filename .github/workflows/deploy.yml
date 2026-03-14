@@ -13,25 +13,21 @@ jobs:
         with:
           submodules: recursive
 
-      - uses: actions/setup-python@v5
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
         with:
-          python-version: '3.13'
-
-      - name: Install ImageMagick
-        run: sudo apt-get install -y imagemagick
-
-      - name: Install Lektor and plugins
-        run: pip install lektor lektor-google-analytics lektor-atom
+          hugo-version: '0.157.0'
+          extended: true
 
       - name: Build site
-        run: lektor build --output-path ./output --no-prune
+        run: hugo --minify
 
       - name: Copy CNAME
-        run: cp CNAME output/
+        run: cp CNAME public/
 
       - name: Deploy to genekao.github.io
         run: |
-          cd output
+          cd public
           git init
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

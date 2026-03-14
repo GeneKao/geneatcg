@@ -1,0 +1,56 @@
+{{- define "main" }}
+<div class="home-hero">
+  <div class="home-hero-image">
+    <img src="/images/Gene.jpg" alt="Gene Ting-Chun Kao">
+  </div>
+  <div class="home-hero-content">
+    <h1>Gene Ting-Chun Kao</h1>
+    <div class="subtitle">Senior R&amp;D Engineer · Computational Geometry</div>
+    <p>
+      Working on computational geometry, geometry processing, and meshing algorithms
+      for simulation and CAD software at Synopsys. PhD from ETH Zurich.
+      Interdisciplinary background across engineering, computer science, architecture, and design.
+    </p>
+    <div class="hero-links">
+      <a href="/resume/">Resume</a>
+      <a href="/publications/">Publications</a>
+      <a href="/blog/">Blog</a>
+      <a href="https://github.com/GeneKao" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/kaogene" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</div>
+
+<div class="works-section">
+  <h2>Latest Works</h2>
+  <div class="works-grid">
+    <a class="work-card" href="https://www.research-collection.ethz.ch/handle/20.500.11850/620646" target="_blank">
+      <div class="work-card-image">
+        <img src="/images/publications/phd.jpg" alt="PhD dissertation">
+      </div>
+      <div class="work-card-body">
+        <h3>PhD Dissertation</h3>
+        <p>Stability Assessment of Discrete Shell Structures during Assembly</p>
+      </div>
+    </a>
+    <a class="work-card" href="https://doi.org/10.1016/j.cad.2022.103216" target="_blank">
+      <div class="work-card-image">
+        <img src="/images/publications/cra_bridge.png" alt="Coupled Rigid-Block Analysis">
+      </div>
+      <div class="work-card-body">
+        <h3>Coupled Rigid-Block Analysis</h3>
+        <p>Stability-Aware Design of Complex Discrete-Element Assemblies</p>
+      </div>
+    </a>
+    <a class="work-card" href="https://github.com/BlockResearchGroup/compas_cra" target="_blank">
+      <div class="work-card-image" style="display:flex;align-items:center;justify-content:center;background:#f5f5f5;">
+        <span style="color:#aaa;font-size:0.9rem;">COMPAS CRA</span>
+      </div>
+      <div class="work-card-body">
+        <h3>COMPAS CRA</h3>
+        <p>Coupled Rigid-Block Analysis for the COMPAS framework</p>
+      </div>
+    </a>
+  </div>
+</div>
+{{- end }}
