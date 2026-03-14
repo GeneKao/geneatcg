@@ -9,18 +9,24 @@ Personal portfolio and blog site for Gene Ting-Chun Kao (www.geneatcg.com), buil
 ## Common Commands
 
 ```sh
+# Install dependencies (first time setup)
+python3 -m venv .venv
+.venv/bin/pip install lektor lektor-google-analytics lektor-atom
+
+# Initialize theme submodule (first time setup)
+git submodule update --init
+
 # Run local dev server (port 5000 is taken by macOS, use 8000)
 .venv/bin/lektor server --port 8000
 # Access at http://127.0.0.1:8000
+```
 
-# Build static site to the GitHub Pages repo
-.venv/bin/lektor build --output-path ../genekao.github.io
+**Deployment is automatic** — push to `main` and GitHub Actions builds and deploys to `genekao.github.io`. No manual deploy step needed.
 
-# Restore custom domain after build
+For a manual build locally:
+```sh
+.venv/bin/lektor build --output-path ../genekao.github.io --no-prune
 cp CNAME ../genekao.github.io/
-
-# Deploy to GitHub Pages (production)
-.venv/bin/lektor deploy ghpages
 ```
 
 ## Architecture
@@ -32,6 +38,8 @@ Content, theme, and configuration are strictly separated:
 - **`assets/`** — Files here are overlaid on top of the theme output. Used for `favicon.ico` and `static/css/custom-styles.css`.
 - **`geneatcg.lektorproject`** — Project config: theme, plugins, deployment server, and all `[theme_settings]` (title, colors, nav links, footer).
 - **`configs/google-analytics.ini`** — Plugin config for `lektor-google-analytics`.
+- **`configs/atom.ini`** — Plugin config for `lektor-atom` (generates RSS feed at `/blog/feed.xml`).
+- **`.github/workflows/deploy.yml`** — CI/CD pipeline: builds and deploys on every push to `main`.
 
 ## Content Format (`.lr` files)
 
@@ -58,4 +66,4 @@ Fields are separated by `---`. The available fields depend on the data model def
 
 ## Deployment
 
-The site deploys to `genekao.github.io` with the custom domain `www.geneatcg.com` (set via `CNAME`). Always copy `CNAME` after a manual build to avoid losing the custom domain on GitHub Pages.
+Pushing to `main` automatically triggers `.github/workflows/deploy.yml`, which builds and force-pushes to `genekao.github.io`. The `CNAME` file is copied automatically by the workflow to preserve the custom domain `www.geneatcg.com`. The `--no-prune` flag is required so the generated `feed.xml` is not deleted during build.
