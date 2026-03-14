@@ -21,10 +21,10 @@ jobs:
         run: sudo apt-get install -y imagemagick
 
       - name: Install Lektor and plugins
-        run: pip install lektor lektor-google-analytics
+        run: pip install lektor lektor-google-analytics lektor-atom
 
       - name: Build site
-        run: lektor build --output-path ./output
+        run: lektor build --output-path ./output --no-prune
 
       - name: Copy CNAME
         run: cp CNAME output/
