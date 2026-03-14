@@ -1,0 +1,39 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install Lektor and plugins
+        run: pip install lektor lektor-google-analytics
+
+      - name: Build site
+        run: lektor build --output-path ./output
+
+      - name: Copy CNAME
+        run: cp CNAME output/
+
+      - name: Deploy to genekao.github.io
+        run: |
+          cd output
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Deploy: ${{ github.sha }}"
+          git push --force \
+            "https://x-access-token:${{ secrets.DEPLOY_TOKEN }}@github.com/GeneKao/genekao.github.io.git" \
+            HEAD:main

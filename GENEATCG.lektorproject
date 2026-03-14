@@ -34,4 +34,4 @@ nav_extralinks = Portfolio: https://geneatcg.com/portfolio
 footer_links = GitHub: https://github.com/GeneKao, LinkedIn: https://www.linkedin.com/in/kaogene
 gitter_room = 
 disqus_name =
-atom_enable =
+atom_enable = true
