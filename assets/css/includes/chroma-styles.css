@@ -73,7 +73,7 @@
 /* GenericUnderline */ .chroma .gl { text-decoration:underline }
 /* TextWhitespace */ .chroma .w { color:#fff }
 
-/* Dark mode syntax highlighting */
+/* Dark mode — dracula */
 /* Generated using: hugo gen chromastyles --style=dracula */
 /* Background */ [data-theme="dark"] .bg { color:#f8f8f2;background-color:#282a36; }
 /* PreWrapper */ [data-theme="dark"] .chroma { color:#f8f8f2;background-color:#282a36;-webkit-text-size-adjust:none; }
