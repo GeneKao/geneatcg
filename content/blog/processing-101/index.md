@@ -12,6 +12,15 @@ cover:
 
 My Processing 101 creative coding experiments.
 
+* [00 Kamehameha Simple](#processing-101--00-kamehameha-simple)
+* [01 Attractor2DSimple](#processing-101--01-attractor2dsimple)
+* [02 BouncingBallSimple](#processing-101--02-bouncingballsimple)
+* [03 Wave](#processing-101--03-wave)
+* [05 waterPipe](#processing-101--05-waterpipe)
+* [06 TwoPlayersGA](#processing-101--06-twoplayersga)
+
+---
+
 ## Processing 101 – 00 Kamehameha Simple
 
 <img src="Kamehameha.jpg" alt="Kamehameha" width="30%"/>

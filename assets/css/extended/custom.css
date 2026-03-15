@@ -3,12 +3,20 @@
     --main-width: 760px;
     --accent: #334155;
     --accent-hover: #1e293b;
+    /* Override PaperMod's dark code block default for light mode */
+    --code-block-bg: #f6f8fa;
 }
 
-/* Dark mode: near-white so accent is clearly visible on dark backgrounds */
+/* Dark mode */
 :root[data-theme="dark"] {
     --accent: #e2e8f0;
     --accent-hover: #ffffff;
+    --code-block-bg: #282a36;
+}
+
+/* Light mode: fix hardcoded light-grey text color in pre code */
+.post-content pre code {
+    color: #1f2328;
 }
 
 a {
