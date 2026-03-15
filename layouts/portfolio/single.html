@@ -1,0 +1,30 @@
+{{- define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+<div class="portfolio-project">
+  {{- with .Resources.GetMatch .Params.thumbnail }}
+  <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" class="portfolio-thumb">
+  {{- end }}
+
+  <div class="hero-links" style="margin: 1.5rem 0;">
+    {{- with .Params.paper }}
+    <a href="{{ . }}" target="_blank">Paper</a>
+    {{- end }}
+    {{- with .Params.github }}
+    <a href="{{ . }}" target="_blank">GitHub</a>
+    {{- end }}
+    {{- with .Params.demo }}
+    <a href="{{ . }}" target="_blank">Demo</a>
+    {{- end }}
+    {{- with .Params.blog_post }}
+    <a href="{{ . }}" target="_blank">Blog Post</a>
+    {{- end }}
+  </div>
+
+  <div class="portfolio-content">
+    {{ .Content }}
+  </div>
+</div>
+{{- end }}

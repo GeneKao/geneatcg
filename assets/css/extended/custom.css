@@ -129,6 +129,13 @@ a:hover {
     margin-bottom: 1.5rem;
 }
 
+.about-tagline {
+    font-size: 1rem;
+    color: var(--secondary);
+    margin-top: -0.75rem;
+    margin-bottom: 1.5rem;
+}
+
 .about-inner {
     display: flex;
     flex-direction: column;
@@ -528,6 +535,26 @@ a:hover {
 .timeline-org {
     font-size: 0.9rem;
     color: var(--secondary);
+}
+
+/* Portfolio grid — 3 columns */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Portfolio project page */
+.portfolio-thumb {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+}
+
+.portfolio-content img {
+    width: 100%;
+    border-radius: 6px;
+    margin: 1rem 0;
 }
 
 /* Responsive */

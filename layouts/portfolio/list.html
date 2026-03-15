@@ -1,0 +1,22 @@
+{{- define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+<div class="portfolio-grid">
+  {{ range sort .Pages "Params.weight" }}
+  <a class="work-card" href="{{ .Permalink }}">
+    <div class="work-card-image">
+      {{- with .Resources.GetMatch .Params.thumbnail }}
+      <img src="{{ .RelPermalink }}" alt="{{ $.Title }}">
+      {{- end }}
+    </div>
+    <div class="work-card-body">
+      <h3>{{ .Title }}</h3>
+      <p>{{ .Params.description }}</p>
+    </div>
+  </a>
+  {{ end }}
+</div>
+{{- end }}
+
