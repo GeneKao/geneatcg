@@ -3,6 +3,11 @@ title: "Using Git like a Pro"
 date: 2020-04-01
 tags: ["blog", "git", "teaching"]
 description: "Git tutorial 101."
+cover:
+  image: "git-flow.png"
+  alt: "Git flow diagram"
+  relative: true
+  hiddenInSingle: true
 ---
 
 I wrote a Git tutorial a while ago and share it on the [GitHub](https://github.com/GeneKao/programming-notes/tree/master/git).
