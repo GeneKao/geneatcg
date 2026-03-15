@@ -583,6 +583,7 @@ a:hover {
 }
 
 .post-entry:has(.entry-cover) .entry-cover {
+    display: block; /* override .tag-entry .entry-cover { display: none } */
     grid-column: 1;
     grid-row: 1 / 4;
     margin: 0;
