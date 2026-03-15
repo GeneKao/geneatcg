@@ -537,6 +537,20 @@ a:hover {
     color: var(--secondary);
 }
 
+/* Recent post cards */
+.recent-post-card .work-card-body h3 {
+    font-size: 0.95rem;
+    margin-bottom: 0;
+}
+
+.recent-post-card .recent-post-date {
+    font-size: 0.78rem;
+    color: var(--secondary);
+    margin-bottom: 0.4rem;
+    min-width: unset;
+    white-space: unset;
+}
+
 /* Portfolio grid — 3 columns */
 .portfolio-grid {
     display: grid;

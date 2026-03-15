@@ -53,15 +53,17 @@
 <!-- Recent posts -->
 <div class="works-section">
   <h2>Recent Posts</h2>
-  <div class="recent-posts">
-    {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
-    <a class="recent-post-item" href="{{ .Permalink }}">
-      <span class="recent-post-date">{{ .Date.Format "Jan 2006" }}</span>
-      <span class="recent-post-title">{{ .Title }}</span>
+  <div class="works-grid">
+    {{ range first 4 (where .Site.RegularPages "Section" "blog") }}
+    <a class="work-card recent-post-card" href="{{ .Permalink }}">
+      <div class="work-card-body">
+        <div class="recent-post-date">{{ .Date.Format "Jan 2006" }}</div>
+        <h3>{{ .Title }}</h3>
+      </div>
     </a>
     {{ end }}
-    <a class="recent-post-more" href="/blog/">View all posts →</a>
   </div>
+  <a class="recent-post-more" href="/blog/">View all posts →</a>
 </div>
 
 <!-- About -->
