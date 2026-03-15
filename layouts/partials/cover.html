@@ -36,7 +36,7 @@
     {{- end }}
 
     {{- $sizes := (slice "360" "480" "720" "1080" "1500") }}
-    {{- if (and (in $processableFormats $cover.MediaType.SubType) (eq $prod true)) }}
+    {{- if (and $cover (and (in $processableFormats $cover.MediaType.SubType) (eq $prod true))) }}
         <img loading="{{ $loading }}"
             srcset='{{- range $size := $sizes -}}
                         {{- if (ge $cover.Width $size) }}
