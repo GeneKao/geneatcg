@@ -569,7 +569,7 @@ a:hover {
     grid-column: 1;
     grid-row: 1 / -1;
     margin: 0;
-    align-self: start;
+    align-self: stretch;
 }
 
 .post-entry:has(.entry-cover) .entry-header,
@@ -580,9 +580,10 @@ a:hover {
 
 .entry-cover img {
     width: 80px;
-    height: 80px;
+    height: 100%;
     object-fit: cover;
     border-radius: 6px;
+    display: block;
 }
 
 /* Portfolio grid — 3 columns */
