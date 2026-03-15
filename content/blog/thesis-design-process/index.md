@@ -7,6 +7,7 @@ cover:
   image: "panaroma_aSmall-610x236.jpg"
   alt: "Thesis design process"
   relative: true
+  hiddenInSingle: true
 ---
 
 <img src="panaroma_aSmall-610x236.jpg" alt="drawing" width="100%"/>

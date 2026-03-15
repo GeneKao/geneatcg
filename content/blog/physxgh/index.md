@@ -7,6 +7,7 @@ cover:
   image: "demo.png"
   alt: "PhysX.GH demo"
   relative: true
+  hiddenInSingle: true
 ---
 
 <img src="PhysX.GH.jpg" width="100%">

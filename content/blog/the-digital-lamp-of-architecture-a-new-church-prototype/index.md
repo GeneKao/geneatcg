@@ -7,6 +7,7 @@ cover:
   image: "969650_602951859722462_1926216163_n.jpg"
   alt: "Digital Lamp of Architecture"
   relative: true
+  hiddenInSingle: true
 ---
 
 <img src="The-Digital-Lamps-sketch.jpg" alt="drawing" width="100%"/>

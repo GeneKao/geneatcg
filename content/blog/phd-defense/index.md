@@ -7,6 +7,7 @@ cover:
   image: "defense-celebration.jpg"
   alt: "PhD defense celebration"
   relative: true
+  hiddenInSingle: true
 ---
 
 ![Genie celebrating](genie-congratulations.jpg)

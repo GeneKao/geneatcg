@@ -7,6 +7,7 @@ cover:
   image: "leopard.jpg"
   alt: "Leopard GH plugin"
   relative: true
+  hiddenInSingle: true
 ---
 
 # Leopard - A new way to process mesh in Grasshopper, a cool GH plugin.

@@ -7,6 +7,7 @@ cover:
   image: "autocomplete.gif"
   alt: "Rhino PyCharm autocomplete"
   relative: true
+  hiddenInSingle: true
 ---
 
 ![](autocomplete.gif)

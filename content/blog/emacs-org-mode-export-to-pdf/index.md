@@ -7,6 +7,7 @@ cover:
   image: "simple-org.png"
   alt: "Emacs Org Mode"
   relative: true
+  hiddenInSingle: true
 ---
 
 [<b>Emacs Org Mode</b>](https://orgmode.org/) is a perfect tool to do almost anything! I particularly like its slogan and design concept: [<b>Organize Your Life In Plain Text</b>](http://doc.norang.ca/org-mode.html)!

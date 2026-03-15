@@ -7,6 +7,7 @@ cover:
   image: "phd-dissertation.jpeg"
   alt: "PhD dissertation cover"
   relative: true
+  hiddenInSingle: true
 ---
 
 ![PhD Dissertation Cover](phd-dissertation.jpeg)

@@ -7,6 +7,7 @@ cover:
   image: "emacs-cpp-editing-1024x640.png"
   alt: "Emacs C++ settings"
   relative: true
+  hiddenInSingle: true
 ---
 
 There are some modes I used to turn my emacs into a powerful IDE environment for c++, python and latex editing. So I post it here to share with anyone who might have interest in using emacs as main editor.

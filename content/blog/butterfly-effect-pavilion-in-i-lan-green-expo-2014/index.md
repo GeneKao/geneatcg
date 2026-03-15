@@ -7,6 +7,7 @@ cover:
   image: "10152071_10202872227779456_1624262284_o.jpg"
   alt: "Butterfly Effect Pavilion"
   relative: true
+  hiddenInSingle: true
 ---
 
 <img src="panaroma-1024x376.jpg" alt="drawing" width="100%"/>
