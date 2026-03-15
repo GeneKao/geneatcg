@@ -3,6 +3,11 @@ title: "DigitalLampThesisGUI_v0a01"
 date: 2015-12-07
 tags: ["thesis", "tku", "java"]
 description: "Bachelor thesis coding."
+cover:
+  image: "youtube-thumb.jpg"
+  alt: "Video thumbnail"
+  relative: true
+  hiddenInSingle: true
 ---
 
 <iframe src="https://www.youtube.com/embed/bwhxG6XmvGQ" width="100%" height="420" frameborder="0" allowfullscreen="allowfullscreen"></iframe>

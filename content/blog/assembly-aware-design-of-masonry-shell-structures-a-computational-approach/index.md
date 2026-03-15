@@ -3,6 +3,11 @@ title: "Assembly-aware design of masonry shell structures: a computational appro
 date: 2017-10-03
 tags: ["design", "thesis", "uni-stuttgart", "fabrication", "physical-simulation", "computational-design", "c-sharp", "programming"]
 description: "My master thesis work published in IASS Hamburg 2017."
+cover:
+  image: "youtube-thumb.jpg"
+  alt: "Video thumbnail"
+  relative: true
+  hiddenInSingle: true
 ---
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/87vkTKf06Ko" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -3,6 +3,11 @@ title: "Swarm 3D GUI – with a tail"
 date: 2016-05-02
 tags: ["programming", "processing", "design"]
 description: "3D Swarm programming using Processing."
+cover:
+  image: "youtube-thumb.jpg"
+  alt: "Video thumbnail"
+  relative: true
+  hiddenInSingle: true
 ---
 
 I wrote this short swarm script with GUI interface in Processing about 4 years ago (When I began to code)… Now I figure out lots of code from this script should be improved! For instance, we can implement KDTree later… Hope this code from the previous version will help people who needs or interested in it.

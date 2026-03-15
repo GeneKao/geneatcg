@@ -3,6 +3,11 @@ title: "ICD/ITKE Research Pavilion 2015-16 - development and implementation demo
 date: 2016-10-30
 tags: ["uni-stuttgart", "rhino-grasshopper", "python", "programming", "pavilion", "design", "fabrication"]
 description: "ICD/ITKE Research Pavilion 2015-16 Development."
+cover:
+  image: "youtube-thumb.jpg"
+  alt: "Video thumbnail"
+  relative: true
+  hiddenInSingle: true
 ---
 
 I was in the computational design team while designing the [ICD](https://icd.uni-stuttgart.de/?p=16220)/[ITKE](https://www.itke.uni-stuttgart.de/archives/portfolio-type/icditke-research-pavilion-2015-16-2) Research Pavilion 2015-16 and was mainly in charge of developing computational tools.
