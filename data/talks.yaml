@@ -7,6 +7,15 @@
       venue_url: "https://www.uni-stuttgart.de"
       description: "Dr Gene Ting-Chun Kao, an R&D engineer from Stockholm and ITECH alumnus, discusses 3D computational geometry, architecture, and how engineering is like cooking and art."
 
+- year: "2023"
+  items:
+    - title: "Stability Assessment of Discrete Shell Structures — PhD Defense"
+      url: "/blog/phd-defense/"
+      image: "phd-defense.jpg"
+      venue: "ETH Zürich, Institute of Technology in Architecture"
+      venue_url: "https://ita.arch.ethz.ch"
+      description: "Public PhD defense on the stability assessment of discrete shell structures, combining computational geometry, structural mechanics, and digital fabrication."
+
 - year: "2022"
   items:
     - title: "A computational design pipeline of 3D discrete-element assemblies in architecture"
