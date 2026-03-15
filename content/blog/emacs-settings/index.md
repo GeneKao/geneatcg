@@ -3,6 +3,10 @@ title: "Emacs settings"
 date: 2016-05-23
 tags: ["emacs", "cpp"]
 description: "My Aquamacs settings."
+cover:
+  image: "emacs-cpp-editing-1024x640.png"
+  alt: "Emacs C++ settings"
+  relative: true
 ---
 
 There are some modes I used to turn my emacs into a powerful IDE environment for c++, python and latex editing. So I post it here to share with anyone who might have interest in using emacs as main editor.

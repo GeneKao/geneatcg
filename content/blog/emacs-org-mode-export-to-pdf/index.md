@@ -3,6 +3,10 @@ title: "Emacs Org Mode export to pdf"
 date: 2020-11-10
 tags: ["org-mode", "emacs", "research", "latex", "eth", "phd"]
 description: "Emacs Org Mode export to pdf."
+cover:
+  image: "simple-org.png"
+  alt: "Emacs Org Mode"
+  relative: true
 ---
 
 [<b>Emacs Org Mode</b>](https://orgmode.org/) is a perfect tool to do almost anything! I particularly like its slogan and design concept: [<b>Organize Your Life In Plain Text</b>](http://doc.norang.ca/org-mode.html)!

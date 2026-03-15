@@ -3,6 +3,10 @@ title: "Doctor of Sciences — ETH Zürich"
 date: 2023-08-05
 description: "My PhD dissertation 'Stability Assessment of Discrete Shell Structures during Assembly' is now available online."
 tags: ["phd", "research", "eth", "geometry", "structures", "computational-design", "mathematics", "optimization", "simulation"]
+cover:
+  image: "phd-dissertation.jpeg"
+  alt: "PhD dissertation cover"
+  relative: true
 ---
 
 ![PhD Dissertation Cover](phd-dissertation.jpeg)

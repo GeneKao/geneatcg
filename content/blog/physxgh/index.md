@@ -3,6 +3,10 @@ title: "PhysX.GH"
 date: 2019-01-01
 tags: ["uni-stuttgart", "c-sharp", "rhino-grasshopper", "programming", "physical-simulation", "computational-design", "graphics", "teaching", "tools", "eth"]
 description: "PhysX.GH - a rigid body simulation tool for Grasshopper."
+cover:
+  image: "demo.png"
+  alt: "PhysX.GH demo"
+  relative: true
 ---
 
 <img src="PhysX.GH.jpg" width="100%">

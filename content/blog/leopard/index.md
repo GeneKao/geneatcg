@@ -3,6 +3,10 @@ title: "Leopard"
 date: 2017-02-21
 tags: ["rhino-grasshopper", "computational-design", "c-sharp", "programming", "graphics", "tools"]
 description: "Leopard - A new way to process mesh in Grasshopper."
+cover:
+  image: "leopard.jpg"
+  alt: "Leopard GH plugin"
+  relative: true
 ---
 
 # Leopard - A new way to process mesh in Grasshopper, a cool GH plugin.

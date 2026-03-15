@@ -3,6 +3,10 @@ title: "The Digital Lamp of Architecture – A New Church Prototype"
 date: 2013-07-25
 tags: ["thesis", "tku", "java"]
 description: "Bachelor thesis design."
+cover:
+  image: "969650_602951859722462_1926216163_n.jpg"
+  alt: "Digital Lamp of Architecture"
+  relative: true
 ---
 
 <img src="The-Digital-Lamps-sketch.jpg" alt="drawing" width="100%"/>

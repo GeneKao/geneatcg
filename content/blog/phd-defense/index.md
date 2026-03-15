@@ -3,6 +3,10 @@ title: "I Defended My PhD at ETH Zürich!"
 date: 2023-03-13
 description: "After 4.5 wonderful years at ETH Zürich, I successfully defended my PhD dissertation on the stability assessment of discrete shell structures."
 tags: ["phd", "research", "eth", "geometry", "structures", "computational-design", "mathematics", "optimization"]
+cover:
+  image: "defense-celebration.jpg"
+  alt: "PhD defense celebration"
+  relative: true
 ---
 
 ![Genie celebrating](genie-congratulations.jpg)

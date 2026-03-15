@@ -3,6 +3,10 @@ title: "Rhino Mac PyCharm autocomplete"
 date: 2020-11-06
 tags: ["tools", "python", "rhino-grasshopper", "programming"]
 description: "Rhino scripting using PyCharm IDE."
+cover:
+  image: "autocomplete.gif"
+  alt: "Rhino PyCharm autocomplete"
+  relative: true
 ---
 
 ![](autocomplete.gif)

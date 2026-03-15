@@ -3,6 +3,10 @@ title: "Butterfly Effect Pavilion in I-Lan Green Expo 2014"
 date: 2014-06-26
 tags: ["tku", "fabrication", "pavilion", "rhino-grasshopper"]
 description: "Butterfly Effect Pavilion in I-Lan Green Expo 2014."
+cover:
+  image: "10152071_10202872227779456_1624262284_o.jpg"
+  alt: "Butterfly Effect Pavilion"
+  relative: true
 ---
 
 <img src="panaroma-1024x376.jpg" alt="drawing" width="100%"/>
