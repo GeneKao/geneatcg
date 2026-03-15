@@ -24,24 +24,33 @@ a:hover {
 /* Post prev/next navigation */
 .paginav {
     border: 1.5px solid #334155;
+    background: var(--theme);
     margin-top: 2rem;
 }
 
 .paginav a {
-    color: var(--primary);
+    color: #1e293b;
 }
 
 .paginav .title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
     color: #334155;
-    font-weight: 600;
+}
+
+.paginav a span:not(.title) {
+    color: #1e293b;
+    font-size: 0.95rem;
 }
 
 .paginav a:hover {
     background: #334155;
-    color: white;
 }
 
-.paginav a:hover .title {
+.paginav a:hover .title,
+.paginav a:hover span {
     color: white;
 }
 
