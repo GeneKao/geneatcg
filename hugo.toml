@@ -62,6 +62,8 @@ ignoreFiles = ['content/404\\.html', '\\.lr$']
   home = ["HTML", "RSS", "JSON"]
 
 [markup]
+  [markup.highlight]
+    noClasses = false
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
