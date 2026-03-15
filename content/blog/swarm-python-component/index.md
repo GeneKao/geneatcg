@@ -3,6 +3,11 @@ title: "Swarm Python Component"
 date: 2014-06-25
 tags: ["python", "programming", "design", "rhino-grasshopper"]
 description: "Swarm in Grasshopper using GH_Python component."
+cover:
+  image: "youtube-thumb.jpg"
+  alt: "Swarm Python Component"
+  relative: true
+  hiddenInSingle: true
 ---
 
 Swarm in Grasshopper using GH_Python component. Testing swarm behaviour in Rhino is in this post: Rhino.Python Swarm Bridge

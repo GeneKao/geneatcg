@@ -7,4 +7,6 @@ tags: ["design", "tku", "thesis"]
 
 Gene Kao, Ting-Chun portfolio 2008-2013
 
-[View portfolio on Google Drive →](https://drive.google.com/file/d/17O5GonqmFSv8zRzWOohUP52nJAp2W08P/view?usp=sharing)
+<div style="width:100%;height:600px;">
+  <iframe src="https://drive.google.com/file/d/17O5GonqmFSv8zRzWOohUP52nJAp2W08P/preview" width="100%" height="600" allow="autoplay"></iframe>
+</div>
