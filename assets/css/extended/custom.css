@@ -1,6 +1,6 @@
-/* Global: wider content area and dark slate accent */
+/* Global: content width and dark slate accent */
 :root {
-    --main-width: 1000px;
+    --main-width: 760px;
 }
 
 a {
