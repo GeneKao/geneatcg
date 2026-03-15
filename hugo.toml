@@ -32,6 +32,10 @@ ignoreFiles = ['content/404\\.html', '\\.lr$']
     url = "/blog/"
     weight = 10
   [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 11
+  [[menu.main]]
     name = "Resume"
     url = "/resume/"
     weight = 20
