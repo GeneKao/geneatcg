@@ -1,3 +1,10 @@
+/* Nav: wrap instead of horizontal scroll on mobile */
+#menu {
+    overflow-x: visible;
+    white-space: normal;
+    flex-wrap: wrap;
+}
+
 /* Global: content width and accent color variables */
 :root {
     --main-width: 760px;

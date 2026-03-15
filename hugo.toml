@@ -53,6 +53,10 @@ ignoreFiles = ['content/404\\.html', '\\.lr$']
     name = "Talks"
     url = "/talks/"
     weight = 50
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 60
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
