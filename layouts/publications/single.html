@@ -8,9 +8,9 @@
 <div class="pub-list">
   {{ range .items }}
   <div class="pub-card">
-    {{ if .image }}
+    {{ if or .image .image_path }}
     <div class="pub-card-image">
-      <img src="/images/publications/{{ .image }}" alt="{{ .title }}">
+      <img src="{{ if .image_path }}{{ .image_path }}{{ else }}/images/publications/{{ .image }}{{ end }}" alt="{{ .title }}">
     </div>
     {{ end }}
     <div class="pub-card-body">
