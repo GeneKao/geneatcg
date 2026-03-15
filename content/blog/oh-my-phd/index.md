@@ -3,6 +3,10 @@ title: "oh-my-phd"
 date: 2020-11-09
 tags: ["blog", "research", "eth", "phd"]
 description: "My PhD journey."
+cover:
+  image: "http://phdcomics.com/comics/archive/phd030718s.gif"
+  alt: "PhD Comics — image © Jorge Cham, phdcomics.com"
+  hiddenInSingle: true
 ---
 
 I am doing my PhD study at ETH Zurich. I try to document what I have been learning here in this [Github repo](https://github.com/GeneKao/oh-my-phd).
