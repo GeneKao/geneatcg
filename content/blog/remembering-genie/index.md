@@ -18,11 +18,9 @@ Genie was the first dog my wife and I welcomed into our lives. His wonderful per
 
 A friend once said, *'Sadness is one thing, but when we are ready, we should have another dog who needs a home.'* About six months ago, we adopted Ebon, who was seriously abused but rescued. Her personality is distinct from Genie's, yet equally remarkable. Together, we continue to learn, heal, and grow.
 
-<a href="https://www.instagram.com/p/CwV6MfaqMC9/?img_index=1" target="_blank">
-  <img src="Genie-tatoo.jpg" alt="Genie tattoo" width="100%"/>
-</a>
+![Our matching Genie tattoos — carrying him with us always](Genie-tatoo.jpg)
 
-*Our matching Genie tattoos — carrying him with us always. More photos on [Instagram](https://www.instagram.com/p/CwV6MfaqMC9/?img_index=1).*
+![Ebon](ebon.jpg)
 
 ---
 
