@@ -467,6 +467,13 @@ a:hover {
     margin-bottom: 0.4rem;
 }
 
+.talk-description {
+    font-size: 0.875rem;
+    color: var(--secondary);
+    line-height: 1.6;
+    margin: 0.4rem 0 0;
+}
+
 /* Resume subtitle */
 .resume-subtitle {
     font-size: 1.15rem;

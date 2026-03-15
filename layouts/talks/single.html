@@ -15,6 +15,7 @@
   <div class="talk-card-body">
     <h3>{{ if .url }}<a href="{{ .url }}" target="_blank">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</h3>
     <div class="talk-venue">@ {{ if .venue_url }}<a href="{{ .venue_url }}" target="_blank">{{ .venue }}</a>{{ else }}{{ .venue }}{{ end }}</div>
+    {{ if .description }}<p class="talk-description">{{ .description }}</p>{{ end }}
   </div>
 </div>
 {{ end }}

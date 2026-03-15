@@ -1,10 +1,11 @@
 - year: "2024"
   items:
-    - title: "Made in Science Podcast #44 — 3D Computational Geometry and Architecture"
+    - title: "Engineering is like cooking and art — 3D Computational Geometry and Architecture"
       url: "https://open.spotify.com/episode/2zszRsRNB0ThYwZaXWea7S"
       image: "uni-stuttgart-podcast.png"
-      venue: "Made in Science Podcast, University of Stuttgart"
+      venue: "Made in Science Podcast #44, University of Stuttgart"
       venue_url: "https://www.uni-stuttgart.de"
+      description: "Dr Gene Ting-Chun Kao, an R&D engineer from Stockholm and ITECH alumnus, discusses 3D computational geometry, architecture, and how engineering is like cooking and art."
 
 - year: "2022"
   items:
