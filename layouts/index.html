@@ -64,7 +64,19 @@
   <h2>Recent Posts</h2>
   <div class="works-grid">
     {{ range first 4 (where .Site.RegularPages "Section" "blog") }}
+    {{- $imgSrc := "" }}
+    {{- if .Params.cover.image }}
+      {{- $res := (.Resources.ByType "image").GetMatch (printf "*%s*" .Params.cover.image) }}
+      {{- if $res }}{{- $imgSrc = $res.Permalink }}{{- else }}{{- $imgSrc = .Params.cover.image }}{{- end }}
+    {{- else }}
+      {{- with (.Resources.ByType "image") | first 1 }}{{- range . }}{{- $imgSrc = .Permalink }}{{- end }}{{- end }}
+    {{- end }}
     <a class="work-card recent-post-card" href="{{ .Permalink }}">
+      {{- if $imgSrc }}
+      <div class="recent-post-thumb">
+        <img src="{{ $imgSrc }}" alt="{{ .Title }}" loading="lazy">
+      </div>
+      {{- end }}
       <div class="work-card-body">
         <div class="recent-post-date">{{ .Date.Format "Jan 2006" }}</div>
         <h3>{{ .Title }}</h3>
