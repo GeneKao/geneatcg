@@ -5,10 +5,10 @@
     --accent-hover: #1e293b;
 }
 
-/* Dark mode: light slate visible on dark backgrounds */
+/* Dark mode: near-white so accent is clearly visible on dark backgrounds */
 :root[data-theme="dark"] {
-    --accent: #cbd5e1;
-    --accent-hover: #f1f5f9;
+    --accent: #e2e8f0;
+    --accent-hover: #ffffff;
 }
 
 a {
@@ -26,7 +26,14 @@ a:hover {
 }
 
 .pagination a {
+    background: transparent;
     color: var(--accent);
+    border: 1.5px solid var(--accent);
+}
+
+.pagination a:hover {
+    background: var(--accent);
+    color: var(--theme);
 }
 
 /* Post prev/next navigation */
