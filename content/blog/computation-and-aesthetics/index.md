@@ -3,6 +3,11 @@ title: "Computation and Aesthetics"
 date: 2014-09-18
 description: "Computation and Aesthetics - undergraduate portfolio."
 tags: ["design", "tku", "thesis"]
+cover:
+  image: "portfolio-cover.jpg"
+  alt: "Computation and Aesthetics portfolio"
+  relative: true
+  hiddenInSingle: true
 ---
 
 Gene Kao, Ting-Chun portfolio 2008-2013
