@@ -5,7 +5,7 @@
     --accent-hover: #1e293b;
 }
 
-/* Dark mode: lighter slate so accent is visible on dark backgrounds */
+/* Dark mode: light slate visible on dark backgrounds */
 :root[data-theme="dark"] {
     --accent: #cbd5e1;
     --accent-hover: #f1f5f9;
