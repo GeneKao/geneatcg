@@ -6,9 +6,9 @@
 }
 
 /* Dark mode: lighter slate so accent is visible on dark backgrounds */
-.dark {
-    --accent: #94a3b8;
-    --accent-hover: #cbd5e1;
+:root[data-theme="dark"] {
+    --accent: #cbd5e1;
+    --accent-hover: #f1f5f9;
 }
 
 a {
