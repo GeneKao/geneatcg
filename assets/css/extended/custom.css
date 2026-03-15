@@ -460,6 +460,14 @@ a:hover {
     margin-bottom: 0.4rem;
 }
 
+/* Resume subtitle */
+.resume-subtitle {
+    font-size: 1.15rem;
+    color: var(--secondary);
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+
 /* Resume photo */
 .resume-photo {
     width: 100%;

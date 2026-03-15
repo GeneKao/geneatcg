@@ -7,9 +7,9 @@
 <div class="pub-year">{{ .year }}</div>
 {{ range .items }}
 <div class="talk-card">
-  {{ if .image }}
+  {{ if or .image .image_path }}
   <div class="talk-card-image">
-    <img src="/images/talks/{{ .image }}" alt="{{ .title }}">
+    <img src="{{ if .image_path }}{{ .image_path }}{{ else }}/images/talks/{{ .image }}{{ end }}" alt="{{ .title }}">
   </div>
   {{ end }}
   <div class="talk-card-body">

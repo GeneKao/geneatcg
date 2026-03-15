@@ -30,4 +30,5 @@
   items:
     - title: "Assembly-Aware Design of Masonry Shell Structures: A Computational Approach"
       url: "https://www.ingentaconnect.com/content/iass/piass/2017/00002017/00000023"
+      image_path: "/images/publications/aad-masonry-shell.png"
       venue: "Pecha Kucha, International Association for Shell and Spatial Structures (IASS), Hamburg"
