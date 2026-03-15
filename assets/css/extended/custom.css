@@ -21,6 +21,30 @@ a:hover {
     color: #334155;
 }
 
+/* Post prev/next navigation */
+.paginav {
+    border: 1.5px solid #334155;
+    margin-top: 2rem;
+}
+
+.paginav a {
+    color: var(--primary);
+}
+
+.paginav .title {
+    color: #334155;
+    font-weight: 600;
+}
+
+.paginav a:hover {
+    background: #334155;
+    color: white;
+}
+
+.paginav a:hover .title {
+    color: white;
+}
+
 /* Full-bleed cover hero — breaks out of PaperMod's max-width container */
 .cover-hero {
     width: 100vw;
