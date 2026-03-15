@@ -1,0 +1,66 @@
+{{- with .cxt}} {{/* Apply proper context from dict */}}
+{{- $loading := cond $.IsSingle "eager" "lazy" }}
+{{- $addLink := (and site.Params.cover.linkFullImages $.IsSingle) }}
+{{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
+{{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
+{{- if hugo.IsExtended -}}
+    {{- $processableFormats = $processableFormats | append "webp" -}}
+{{- end -}}
+
+{{- /* Resolve cover image: explicit cover param, or first image in page bundle */}}
+{{- $cover := "" }}
+{{- $alt := "" }}
+{{- $imgdl := "" }}
+
+{{- if .Params.cover.image }}
+    {{- $alt = (.Params.cover.alt | default .Params.cover.caption | plainify) }}
+    {{- $pageBundleCover := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
+    {{- $globalResourcesCover := (resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
+    {{- $cover = (or $pageBundleCover $globalResourcesCover) }}
+    {{- $imgdl = (.Params.cover.image) | absURL }}
+    {{- if $cover }}{{- $imgdl = $cover.Permalink }}{{- end }}
+{{- else if (not $.IsSingle) }}
+    {{- /* Fallback: first image resource in the page bundle */}}
+    {{- $firstImage := (.Resources.ByType "image") | first 1 }}
+    {{- range $firstImage }}
+        {{- $cover = . }}
+        {{- $imgdl = .Permalink }}
+        {{- $alt = $.Title }}
+    {{- end }}
+{{- end }}
+
+{{- if (and $cover (not $.isHidden)) }}
+<figure class="entry-cover">
+    {{- if $addLink }}
+        <a href="{{ $imgdl }}" target="_blank" rel="noopener noreferrer">
+    {{- end }}
+
+    {{- $sizes := (slice "360" "480" "720" "1080" "1500") }}
+    {{- if (and (in $processableFormats $cover.MediaType.SubType) (eq $prod true)) }}
+        <img loading="{{ $loading }}"
+            srcset='{{- range $size := $sizes -}}
+                        {{- if (ge $cover.Width $size) }}
+                            {{- printf "%s %s" (($cover.Resize (printf "%sx" $size)).Permalink) (printf "%sw," $size) }}
+                        {{- end }}
+                    {{- end }}
+                    {{- printf "%s %dw" ($cover.Permalink) ($cover.Width) }}'
+            src="{{ $cover.Permalink }}"
+            sizes="(min-width: 768px) 720px, 100vw"
+            width="{{ $cover.Width }}" height="{{ $cover.Height }}"
+            alt="{{ $alt }}">
+    {{- else }}
+        <img loading="{{ $loading }}" src="{{ $imgdl }}" alt="{{ $alt }}">
+    {{- end }}
+
+    {{- if $addLink }}
+        </a>
+    {{- end -}}
+
+    {{- if $.IsSingle }}
+        {{ with .Params.cover.caption -}}
+            <figcaption>{{ . | markdownify }}</figcaption>
+        {{- end }}
+    {{- end }}
+</figure>
+{{- end }}
+{{- end -}}
