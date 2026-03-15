@@ -408,12 +408,13 @@ a:hover {
 
 /* Resume photo */
 .resume-photo {
-    width: 280px;
-    height: 280px;
+    width: 220px;
+    height: 220px;
     object-fit: cover;
     object-position: center top;
-    border-radius: 8px;
-    margin-bottom: 2rem;
+    border-radius: 50%;
+    border: 3px solid #334155;
+    margin: 0 auto 2rem;
     cursor: pointer;
     display: block;
 }
