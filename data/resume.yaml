@@ -9,32 +9,42 @@ experience:
   - period: "2026–"
     role: Senior R&D Engineer
     org: Synopsys, Sweden Remote
+    url: "https://www.synopsys.com"
   - period: "2023–26"
     role: R&D Engineer II
     org: Ansys, Sweden Remote
+    url: "https://www.ansys.com"
   - period: "2018–22"
     role: PhD Researcher
     org: ETH Zurich, Block Research Group / NCCR Digital Fabrication, Switzerland
+    url: "https://www.block.arch.ethz.ch/brg/"
   - period: "2021–22"
     role: Research Intern
     org: Autodesk Research, Simulation, Optimization & Systems (SOS) Group, Remote
+    url: "https://www.research.autodesk.com"
   - period: "2016–18"
     role: Software Developer / Project Engineer
     org: Strabag / Ed. Züblin, Germany
+    url: "https://www.strabag.com"
   - period: "2013–14"
     role: Research and Teaching Assistant
     org: Tamkang University, Taiwan
+    url: "https://www.tku.edu.tw/en/"
 
 education:
   - period: "2018–23"
     degree: Doctor of Sciences
     institution: ETH Zurich, Switzerland
+    url: "https://ethz.ch"
   - period: "2019–20"
     degree: Certificate of Advanced Studies ETH in Computer Science, Major in Visual Computing
     institution: ETH Zurich, Switzerland
+    url: "https://ethz.ch"
   - period: "2014–16"
     degree: Master of Science in Integrated Technologies and Architectural Design Research
     institution: Stuttgart University, Germany
+    url: "https://www.uni-stuttgart.de/en/"
   - period: "2008–13"
     degree: Bachelor of Architecture
     institution: Tamkang University, Taiwan
+    url: "https://www.tku.edu.tw/en/"

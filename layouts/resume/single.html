@@ -20,7 +20,7 @@
     <div class="timeline-item">
       <div class="timeline-period">{{ .period }}</div>
       <div class="timeline-role">{{ .role }}</div>
-      <div class="timeline-org">{{ .org }}</div>
+      <div class="timeline-org">{{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .org }}</a>{{ else }}{{ .org }}{{ end }}</div>
     </div>
     {{ end }}
   </div>
@@ -31,7 +31,7 @@
     <div class="timeline-item">
       <div class="timeline-period">{{ .period }}</div>
       <div class="timeline-role">{{ .degree }}</div>
-      <div class="timeline-org">{{ .institution }}</div>
+      <div class="timeline-org">{{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .institution }}</a>{{ else }}{{ .institution }}{{ end }}</div>
     </div>
     {{ end }}
   </div>
