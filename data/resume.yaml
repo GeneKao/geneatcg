@@ -17,7 +17,7 @@ experience:
   - period: "2018–22"
     role: PhD Researcher
     org: ETH Zurich, Block Research Group / NCCR Digital Fabrication, Switzerland
-    url: "https://www.block.arch.ethz.ch/brg/"
+    url: "https://dfab.ch/"
   - period: "2021–22"
     role: Research Intern
     org: Autodesk Research, Simulation, Optimization & Systems (SOS) Group, Remote
@@ -25,11 +25,11 @@ experience:
   - period: "2016–18"
     role: Software Developer / Project Engineer
     org: Strabag / Ed. Züblin, Germany
-    url: "https://www.strabag.com"
+    url: "https://www.zueblin.de/en"
   - period: "2013–14"
     role: Research and Teaching Assistant
     org: Tamkang University, Taiwan
-    url: "https://www.tku.edu.tw/en/"
+    url: "https://english.tku.edu.tw/"
 
 education:
   - period: "2018–23"
@@ -47,4 +47,4 @@ education:
   - period: "2008–13"
     degree: Bachelor of Architecture
     institution: Tamkang University, Taiwan
-    url: "https://www.tku.edu.tw/en/"
+    url: "https://english.tku.edu.tw/"
