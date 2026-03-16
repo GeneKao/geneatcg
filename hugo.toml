@@ -19,6 +19,7 @@ ignoreFiles = ['content/404\\.html', '\\.lr$']
   ShowToc = false
   description = "Gene Ting-Chun Kao — Computational Geometry, Geometry Processing, Research"
   author = "Gene Ting-Chun Kao"
+  images = ["images/cover.png"]
 
 [[params.socialIcons]]
   name = "github"
