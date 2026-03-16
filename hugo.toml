@@ -1,4 +1,5 @@
 baseURL = 'https://www.geneatcg.com'
+googleAnalytics = 'G-QM94B0JX4Q'
 languageCode = 'en-US'
 title = 'GENEATCG'
 theme = 'PaperMod'

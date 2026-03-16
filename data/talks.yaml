@@ -1,7 +1,7 @@
 - year: "2024"
   items:
     - title: "Engineering is like cooking and art — 3D Computational Geometry and Architecture"
-      url: "https://open.spotify.com/episode/2zszRsRNB0ThYwZaXWea7S"
+      url: "/blog/made-in-science-podcast/"
       image: "uni-stuttgart-podcast.png"
       venue: "Made in Science Podcast #44, University of Stuttgart"
       venue_url: "https://www.uni-stuttgart.de"
@@ -18,6 +18,11 @@
 
 - year: "2022"
   items:
+    - title: "Adopting Genie — 浪浪別哭 Podcast Ep. 36"
+      url: "/blog/adopting-genie/"
+      image: "Genie-podcast.jpg"
+      venue: "浪浪別哭 (Lang Lang Don't Cry) Podcast"
+      description: "Our story of adopting Genie from Taiwan to Switzerland, shared on the 浪浪別哭 foster cafe podcast."
     - title: "A computational design pipeline of 3D discrete-element assemblies in architecture"
       url: "https://www.block.arch.ethz.ch/brg/content/publication/1223"
       image: "eccomas.png"
@@ -40,7 +45,7 @@
 - year: "2019"
   items:
     - title: "建築設計、數位製造與電腦科學的跨領域研究 — Interdisciplinary Research in Architecture, Digital Fabrication, and Computer Science"
-      url: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8yYzVlODU0L3BvZGNhc3QvcnNz/episode/YzQwOGVjNTYtZWVkMC05NDQxLTY2YWMtYTVkZmE1NjgzNzRi"
+      url: "/blog/humans-offshore-podcast/"
       image: "human-offshore.jpg"
       venue: "離島人 | Humans Offshore Podcast"
 

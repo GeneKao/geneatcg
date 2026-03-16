@@ -2,7 +2,7 @@
 title: "Remembering Genie"
 date: 2024-03-22
 description: "One year ago, we lost our beloved Genie. A tribute to a free and beautiful soul."
-tags: ["life", "blog"]
+tags: ["life", "blog", "genie", "ebon"]
 cover:
   image: "Genie-tatoo.jpg"
   alt: "Genie tattoo — carrying him with us always"
@@ -15,6 +15,8 @@ One year ago, we experienced something unimaginable: our beloved Genie left us. 
 To some, Genie was just a pet. Our time together was only 14 months, so they may not fully comprehend the level of devastation we are experiencing. Yet, one said: *'Grief is the price for love.'* The more love we give, the greater the grief we experience when that love is gone.
 
 Genie was the first dog my wife and I welcomed into our lives. His wonderful personality was a gift, teaching us about the unexpected intelligence and kindness that dogs possess. He brought happiness and warmth into every moment. During the final year of my doctoral studies, his constant companionship was invaluable. He was more than a pet; he was my pillar of strength, my therapy dog. Without him, my achievements would have been unattainable.
+
+![Genie keeping me company while I wrote my PhD dissertation](Genie-PhD.jpg)
 
 A friend once said, *'Sadness is one thing, but when we are ready, we should have another dog who needs a home.'* About six months ago, we adopted Ebon, who was seriously abused but rescued. Her personality is distinct from Genie's, yet equally remarkable. Together, we continue to learn, heal, and grow.
 
