@@ -4,7 +4,7 @@ date: 2024-03-22
 description: "One year ago, we lost our beloved Genie. A tribute to a free and beautiful soul."
 tags: ["life", "blog", "genie", "ebon"]
 cover:
-  image: "Genie-tatoo.jpg"
+  image: "Genie-tattoo.jpg"
   alt: "Genie tattoo — carrying him with us always"
   relative: true
   hiddenInSingle: true
@@ -20,7 +20,7 @@ Genie was the first dog my wife and I welcomed into our lives. His wonderful per
 
 A friend once said, *'Sadness is one thing, but when we are ready, we should have another dog who needs a home.'* About six months ago, we adopted Ebon, who was seriously abused but rescued. Her personality is distinct from Genie's, yet equally remarkable. Together, we continue to learn, heal, and grow.
 
-![Our matching Genie tattoos — carrying him with us always](Genie-tatoo.jpg)
+![Our matching Genie tattoos — carrying him with us always](Genie-tattoo.jpg)
 
 ![Ebon](ebon.jpg)
 

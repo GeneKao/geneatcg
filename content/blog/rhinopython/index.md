@@ -3,6 +3,11 @@ title: "Rhino.Python"
 date: 2014-11-30
 tags: ["python", "uni-stuttgart", "rhino-grasshopper", "computational-design", "design"]
 description: "Rhino.Python examples."
+cover:
+  image: "rhinopython-1d-2d-3d/Rendering10.jpg"
+  alt: "Rhino.Python"
+  relative: true
+  hiddenInSingle: true
 ---
 
 These are my Rhino.Python practice while I studied at Stuttgart University.

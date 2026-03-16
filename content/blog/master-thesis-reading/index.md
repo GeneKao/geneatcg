@@ -3,6 +3,11 @@ title: "Master Thesis Reading"
 date: 2015-12-15
 tags: ["research", "thesis", "uni-stuttgart"]
 description: "Thesis reading at Stuttgart University."
+cover:
+  image: "master-thesis-reading-the-construction-of-gothic-cathedrals/The-Construction-of-Gothic-Cathedrals.jpg"
+  alt: "The Construction of Gothic Cathedrals"
+  relative: true
+  hiddenInSingle: true
 ---
 
 My reading list when writing master thesis at Stuttgart University.
