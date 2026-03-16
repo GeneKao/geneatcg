@@ -1,21 +1,11 @@
-<script src="https://giscus.app/client.js"
-        data-repo="GeneKao/geneatcg"
-        data-repo-id="MDEwOlJlcG9zaXRvcnkxOTQ1MjIzNzQ="
-        data-category="Announcements"
-        data-category-id="DIC_kwDOC5gtBs4C4hrv"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="light"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script>
-
 <script>
 (function () {
+  function getTheme() {
+    return localStorage.getItem('pref-theme') === 'dark' ||
+           document.documentElement.getAttribute('data-theme') === 'dark'
+      ? 'dark' : 'light';
+  }
+
   function setGiscusTheme(theme) {
     var iframe = document.querySelector('iframe.giscus-frame');
     if (iframe) {
@@ -26,23 +16,26 @@
     }
   }
 
-  function getTheme() {
-    return document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
-  }
+  // Inject giscus script with the correct initial theme
+  var s = document.createElement('script');
+  s.src = 'https://giscus.app/client.js';
+  s.setAttribute('data-repo', 'GeneKao/geneatcg');
+  s.setAttribute('data-repo-id', 'MDEwOlJlcG9zaXRvcnkxOTQ1MjIzNzQ=');
+  s.setAttribute('data-category', 'Announcements');
+  s.setAttribute('data-category-id', 'DIC_kwDOC5gtBs4C4hrv');
+  s.setAttribute('data-mapping', 'pathname');
+  s.setAttribute('data-strict', '0');
+  s.setAttribute('data-reactions-enabled', '1');
+  s.setAttribute('data-emit-metadata', '0');
+  s.setAttribute('data-input-position', 'top');
+  s.setAttribute('data-theme', getTheme());
+  s.setAttribute('data-lang', 'en');
+  s.setAttribute('crossorigin', 'anonymous');
+  s.async = true;
+  document.currentScript.parentNode.insertBefore(s, document.currentScript.nextSibling);
 
-  // Sync on toggle — observe data-theme attribute changes
-  var observer = new MutationObserver(function () {
-    setGiscusTheme(getTheme());
-  });
+  // Sync on theme toggle
+  var observer = new MutationObserver(function () { setGiscusTheme(getTheme()); });
   observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
-
-  // Set initial theme once giscus iframe loads
-  window.addEventListener('message', function handler(e) {
-    if (e.origin !== 'https://giscus.app') return;
-    if (e.data && e.data.giscus && e.data.giscus.discussion !== undefined) {
-      setGiscusTheme(getTheme());
-      window.removeEventListener('message', handler);
-    }
-  });
 })();
 </script>
