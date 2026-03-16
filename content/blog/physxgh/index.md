@@ -21,6 +21,8 @@ About
 
 
 
+[![PhysX.GH on GitHub](physxgh-github.png)](https://github.com/TheAsianCoders/PhysX.GH)
+
 Download: [https://www.food4rhino.com/app/physxgh](https://www.food4rhino.com/app/physxgh)
 
 Forum: [https://www.grasshopper3d.com/group/physx-gh](https://www.grasshopper3d.com/group/physx-gh)

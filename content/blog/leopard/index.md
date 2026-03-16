@@ -34,6 +34,6 @@ First tutorial
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/OsuM5yi81Co" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-Github source code: https://github.com/GeneKao/Leopard
+[![Leopard on GitHub](leopard-github.png)](https://github.com/GeneKao/Leopard)
 
 Leopard © 2016-2020 Gene Ting-Chun Kao and Alan Song-Ching Tai

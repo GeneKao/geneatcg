@@ -37,6 +37,8 @@ Here are some screenshots:
 
 # My org-mode templates for latex-style writing
 
+[![orgmode-latex-templates on GitHub](orgmode-latex-templates-github.png)](https://github.com/GeneKao/orgmode-latex-templates)
+
 [<b>This repo</b>](https://github.com/GeneKao/orgmode-latex-templates) contains different templates as a starter code to write org-mode which can later be exported to latex and pdf.
 
 

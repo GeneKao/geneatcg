@@ -19,6 +19,8 @@ Here is the demonstration video to show the geometrical implementation. One of t
 
 The demo video above shows the workflow from mesh to pavilion geometry by using our customised Grasshopper component, and we can select vertices from the mesh by using [Selectable Preview](https://www.food4rhino.com/app/selectable-preview) plugin. Finally, the customised component can generate plate and double layer topology seamlessly.
 
+[![Pavilion2015_ITECH on GitHub](pavilion-github.png)](https://github.com/GeneKao/Pavilion2015_ITECH)
+
 Some part of the code is on my [GitHub](https://github.com/GeneKao/Pavilion2015_ITECH) and the code project was developed together with Julian Wengzinek, Thu Nguyen-Phuoc and Long Nguyen.
 
 The pavilion project video from the design development to the fabrication process can be seen in the video from ICD/ITKE here:
