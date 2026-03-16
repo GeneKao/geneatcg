@@ -8,6 +8,7 @@ ignoreFiles = ['content/404\\.html', '\\.lr$']
 
 [params]
   defaultTheme = 'light'
+  comments = true
   disableThemeToggle = false
   ShowReadingTime = true
   ShowShareButtons = false
