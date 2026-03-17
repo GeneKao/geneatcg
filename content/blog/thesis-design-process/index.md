@@ -2,7 +2,7 @@
 title: "Bachelor thesis design"
 date: 2013-11-28
 tags: ["java", "thesis", "tku"]
-description: "Bachelor thesis design process."
+description: "Design process documentation for my bachelor thesis — the Digital Lamp of Architecture — at Tamkang University."
 cover:
   image: "panaroma_aSmall-610x236.jpg"
   alt: "Thesis design process"

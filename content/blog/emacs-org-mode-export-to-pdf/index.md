@@ -2,7 +2,7 @@
 title: "Emacs Org Mode export to pdf"
 date: 2020-11-10
 tags: ["org-mode", "emacs", "research", "latex", "eth", "phd"]
-description: "Emacs Org Mode export to pdf."
+description: "How to use Emacs Org Mode with LaTeX templates to write and export research documents to PDF."
 cover:
   image: "simple-org.png"
   alt: "Emacs Org Mode"

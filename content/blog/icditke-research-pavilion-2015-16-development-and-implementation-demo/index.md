@@ -2,7 +2,7 @@
 title: "ICD/ITKE Research Pavilion 2015-16 - development and implementation demo"
 date: 2016-10-30
 tags: ["uni-stuttgart", "rhino-grasshopper", "python", "programming", "pavilion", "design", "fabrication"]
-description: "ICD/ITKE Research Pavilion 2015-16 Development."
+description: "Computational tool development for the ICD/ITKE Research Pavilion 2015-16 — from mesh input to robotically fabricated plate geometry."
 cover:
   image: "youtube-thumb.jpg"
   alt: "Video thumbnail"

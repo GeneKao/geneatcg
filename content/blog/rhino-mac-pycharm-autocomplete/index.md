@@ -2,7 +2,7 @@
 title: "Rhino Mac PyCharm autocomplete"
 date: 2020-11-06
 tags: ["tools", "python", "rhino-grasshopper", "programming"]
-description: "Rhino scripting using PyCharm IDE."
+description: "Setting up PyCharm for Rhino Python scripting on Mac with full autocomplete support."
 cover:
   image: "autocomplete.gif"
   alt: "Rhino PyCharm autocomplete"

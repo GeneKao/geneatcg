@@ -2,7 +2,7 @@
 title: "Swarm Python Component"
 date: 2014-06-25
 tags: ["python", "programming", "design", "rhino-grasshopper"]
-description: "Swarm in Grasshopper using GH_Python component."
+description: "Implementing swarm intelligence algorithms as a Grasshopper GH_Python component for computational design."
 cover:
   image: "youtube-thumb.jpg"
   alt: "Swarm Python Component"

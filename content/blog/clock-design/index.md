@@ -2,7 +2,7 @@
 title: "Clock Design"
 date: 2013-12-12
 tags: ["programming", "processing", "design"]
-description: "Clock graphic design - [i](clockdesign_001_basic), [ii](clockdesign_002_mondaine)."
+description: "Two minimalist clock designs built with Processing — a basic geometric clock and a Mondaine-inspired Swiss railway clock."
 cover:
   image: "clockdesign_001_basic/clockdesign_001_basic.png"
   alt: "Clock Design"

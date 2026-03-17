@@ -2,7 +2,7 @@
 title: "Rhino.Python"
 date: 2014-11-30
 tags: ["python", "uni-stuttgart", "rhino-grasshopper", "computational-design", "design"]
-description: "Rhino.Python examples."
+description: "Computational design experiments in Rhino.Python: parametric structures, swarm bridge, tessellation, and Boy Surface subdivision."
 cover:
   image: "rhinopython-1d-2d-3d/Rendering10.jpg"
   alt: "Rhino.Python"

@@ -2,7 +2,7 @@
 title: "DigitalLampThesisGUI_v0a01"
 date: 2015-12-07
 tags: ["thesis", "tku", "java"]
-description: "Bachelor thesis coding."
+description: "GUI development for the Digital Lamp of Architecture — bachelor thesis coding project at Tamkang University."
 cover:
   image: "youtube-thumb.jpg"
   alt: "Video thumbnail"

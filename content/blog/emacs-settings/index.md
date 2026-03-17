@@ -2,7 +2,7 @@
 title: "Emacs settings"
 date: 2016-05-23
 tags: ["emacs", "cpp"]
-description: "My Aquamacs settings."
+description: "My Emacs configuration for academic writing and programming, including org-mode, LaTeX export, and development setup."
 cover:
   image: "emacs-cpp-editing-1024x640.png"
   alt: "Emacs C++ settings"

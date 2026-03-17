@@ -2,7 +2,7 @@
 title: "oh-my-phd"
 date: 2020-11-09
 tags: ["blog", "research", "eth", "phd"]
-description: "My PhD journey."
+description: "A reflection on 4.5 years of doctoral research at ETH Zürich — the highs, the lows, and everything in between."
 cover:
   image: "http://phdcomics.com/comics/archive/phd030718s.gif"
   alt: "PhD Comics — image © Jorge Cham, phdcomics.com"

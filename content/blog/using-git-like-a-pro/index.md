@@ -2,7 +2,7 @@
 title: "Using Git like a Pro"
 date: 2020-04-01
 tags: ["blog", "git", "teaching"]
-description: "Git tutorial 101."
+description: "A comprehensive Git tutorial covering branching, rebasing, stashing, and workflows for professional software development."
 cover:
   image: "git-flow.png"
   alt: "Git flow diagram"

@@ -2,7 +2,7 @@
 title: "Processing 101"
 date: 2014-07-25
 tags: ["processing", "programming", "design"]
-description: "My Processing 101 creative coding experiments."
+description: "Creative coding experiments in Processing 101 — parametric shapes, animations, and interactive sketches."
 cover:
   image: "Kamehameha.jpg"
   alt: "Processing 101"

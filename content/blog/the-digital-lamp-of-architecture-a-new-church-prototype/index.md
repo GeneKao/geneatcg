@@ -2,7 +2,7 @@
 title: "The Digital Lamp of Architecture – A New Church Prototype"
 date: 2013-07-25
 tags: ["thesis", "tku", "java"]
-description: "Bachelor thesis design."
+description: "Bachelor thesis project at Tamkang University — a new church prototype concept exploring digital fabrication and architectural lighting."
 cover:
   image: "969650_602951859722462_1926216163_n.jpg"
   alt: "Digital Lamp of Architecture"

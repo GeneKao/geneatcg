@@ -2,7 +2,7 @@
 title: "Robotic Force Printing - MIT Design-Build Workshop 2019"
 date: 2019-02-01
 tags: ["research", "fabrication", "computational-design", "teaching", "python", "eth", "pavilion"]
-description: "MIT Design-Build Workshop 2019 in Shanghai."
+description: "Exploring robotic fabrication and force-based 3D printing at the MIT Design-Build Workshop 2019 in Shanghai."
 cover:
   image: "robotic-force-printing.jpg"
   alt: "Robotic Force Printing"

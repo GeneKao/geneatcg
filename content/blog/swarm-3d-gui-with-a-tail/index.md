@@ -2,7 +2,7 @@
 title: "Swarm 3D GUI – with a tail"
 date: 2016-05-02
 tags: ["programming", "processing", "design"]
-description: "3D Swarm programming using Processing."
+description: "3D swarm simulation with interactive GUI built in Processing, exploring emergent behavior in computational design."
 cover:
   image: "youtube-thumb.jpg"
   alt: "Video thumbnail"

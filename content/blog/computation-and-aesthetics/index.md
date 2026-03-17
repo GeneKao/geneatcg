@@ -1,7 +1,7 @@
 ---
 title: "Computation and Aesthetics"
 date: 2014-09-18
-description: "Computation and Aesthetics - undergraduate portfolio."
+description: "Undergraduate portfolio exploring the intersection of computation and aesthetics, developed at Tamkang University."
 tags: ["design", "tku", "thesis"]
 cover:
   image: "portfolio-cover.jpg"
