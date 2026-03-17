@@ -138,6 +138,20 @@ a:hover {
     margin: 0 0.3em;
 }
 
+.blog-nav-links {
+    float: right;
+    margin-top: -2.5rem;
+}
+
+@media (max-width: 600px) {
+    .blog-nav-links {
+        float: none;
+        display: block;
+        margin-top: 0.25rem;
+        margin-bottom: 1rem;
+    }
+}
+
 @media (max-width: 480px) {
     .cg-meanings {
         display: inline-flex;
