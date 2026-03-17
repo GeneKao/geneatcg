@@ -6,6 +6,18 @@ Built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adit
 
 Feel free to explore the code, borrow ideas, or open an issue if you spot something broken.
 
+## Features
+
+- Custom homepage — cover hero, highlights grid, recent posts with thumbnails, about section
+- Structured data pages — resume timeline, publication cards, talk cards — driven by YAML
+- Comments via [giscus](https://giscus.app/) (GitHub Discussions), with light/dark theme sync
+- Syntax highlighting with separate light and dark Chroma themes
+- Cover image support for external URLs (e.g. GitHub OG preview images)
+- Archives page + tag browsing
+- Google Analytics (GA4)
+- Automated deployment to GitHub Pages via GitHub Actions
+- RSS feed + JSON search index
+
 ## Setup
 
 ```sh

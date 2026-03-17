@@ -22,6 +22,18 @@ The site is a static website built with [Hugo](https://gohugo.io/) and the [Pape
 
 Before this, the site ran on [Lektor](https://www.getlektor.com/). I migrated to Hugo for its speed, rich ecosystem, and the clean aesthetic of PaperMod.
 
+## What's included
+
+- **Custom homepage** — cover hero, highlights grid, recent posts with thumbnails, and an about section
+- **Structured data pages** — resume timeline, publication cards, and talk cards all driven by YAML files
+- **Comments** via [giscus](https://giscus.app/) (GitHub Discussions), with automatic light/dark theme sync
+- **Syntax highlighting** with separate light and dark Chroma themes
+- **Cover image support** for external URLs (e.g. GitHub OG preview images)
+- **Archives page** + tag browsing
+- **Google Analytics** (GA4)
+- **Automated deployment** to GitHub Pages via GitHub Actions
+- **RSS feed** + JSON search index
+
 ## Why open source?
 
 A few reasons:
