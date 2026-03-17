@@ -4,8 +4,8 @@ date: 2014-11-30
 tags: ["python", "uni-stuttgart", "rhino-grasshopper", "computational-design", "design"]
 description: "Computational design experiments in Rhino.Python: parametric structures, swarm bridge, tessellation, and Boy Surface subdivision."
 cover:
-  image: "rhinopython-1d-2d-3d/Rendering10.jpg"
-  alt: "Rhino.Python"
+  image: "rhinopython-swarm-bridge/bridgeRendering01.jpg"
+  alt: "Rhino.Python Swarm Bridge"
   relative: true
   hiddenInSingle: true
 ---
@@ -178,7 +178,7 @@ Swarm Behavior + Attractor : Agent methods: 1. Align : Move in the same directio
 
 ![](rhinopython-swarm-bridge/bridgeRendering01.jpg)
 
-<iframe src="//www.youtube.com/embed/Vl4k08GAAzU?list=UUXVRZ5CbwNMhPv5l894U8jw" width="100%" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+{{< youtube Vl4k08GAAzU >}}
 
 ![](rhinopython-swarm-bridge/bridgeRendering02.jpg)
 

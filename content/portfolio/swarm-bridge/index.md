@@ -3,6 +3,7 @@ title: "Rhino.Python Swarm Bridge"
 thumbnail: "SwarmBridge.png"
 description: "Swarm behaviour simulation in Rhino.Python generating bridge geometry"
 weight: 12
+blog_post: "/blog/rhinopython/"
 demo: "https://www.youtube.com/watch?v=Vl4k08GAAzU"
 ---
 
