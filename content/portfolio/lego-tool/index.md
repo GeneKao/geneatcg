@@ -3,7 +3,7 @@ title: "LEGO Tool for Rhino"
 thumbnail: "LEGO.png"
 description: "Python script for Rhino to design and 3D print customised LEGO components"
 weight: 15
-blog_post: "https://www.geneatcg.com/lego-component-for-3d-printing/"
+blog_post: "/blog/lego-component-for-3d-printing/"
 ---
 
 ![LEGO Component](3d-LEGO-component.jpg)
