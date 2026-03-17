@@ -29,18 +29,26 @@ cp CNAME public/
 ```
 content/          Hugo content (.md files, page bundles)
   blog/<slug>/    Each post is a directory with index.md + images alongside
+  archives.md     Year/month archive page (layout: "archives")
   publications/   Single page driven by data/publications.yaml
   resume/         Single page driven by data/resume.yaml
   talks/          Single page driven by data/talks.yaml
 data/             Structured YAML — resume timeline, publication cards, talk cards
 layouts/          Custom templates overriding PaperMod defaults
   index.html      Full custom homepage (cover, overview, highlights, recent posts, about)
+  partials/
+    comments.html   giscus comment system (theme-aware, synced via localStorage)
+    cover.html      Custom override supporting external URL cover images
   publications/   Card layout rendered from data/publications.yaml
   talks/          Card layout rendered from data/talks.yaml
   resume/         Timeline layout rendered from data/resume.yaml
 assets/css/extended/custom.css   All color, spacing, and component overrides
 themes/PaperMod/  Git submodule — do not edit directly
-static/images/    Profile photos, cover image, publication/talk images
+static/
+  images/
+    talks/        Talk card images (referenced from data/talks.yaml)
+    publications/ Publication card images (referenced from data/publications.yaml)
+  favicon.ico / favicon-16x16.png / favicon-32x32.png / apple-touch-icon.png
 .github/workflows/deploy.yml   CI/CD pipeline
 ```
 
@@ -53,12 +61,31 @@ title: "Post Title"
 date: 2024-01-15
 tags: ["tag1", "tag2"]
 description: "Short summary shown in listings"
+cover:
+  image: "cover-image.jpg"
+  alt: "Description"
+  relative: true
+  hiddenInSingle: true   # hides cover on single page; use inline image instead
 ---
 
 Post body in Markdown here.
 ```
 
 Images placed in the same directory as `index.md` can be referenced relatively (`![alt](image.jpg)`).
+
+**Cover image pattern for posts with a GitHub repo:** use `hiddenInSingle: true` in front matter and add a clickable inline image at the top of the body:
+```markdown
+[![Repo name](repo-github.png)](https://github.com/GeneKao/repo-name)
+```
+
+To download a GitHub repo's OG preview image:
+```sh
+# 1. Get the OG image URL
+curl -s https://github.com/GeneKao/repo-name | grep -o 'property="og:image" content="[^"]*"'
+# 2. Download it (needs Mozilla UA and a few seconds between requests to avoid rate limiting)
+sleep 5 && curl -sL -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36" \
+  "<og-image-url>" -o content/blog/<slug>/repo-github.png
+```
 
 To add a new post:
 ```sh
@@ -67,9 +94,9 @@ hugo new content/blog/my-post-title/index.md
 
 ## Structured Data (resume, publications, talks)
 
-- `data/resume.yaml` — experience and education entries rendered as a timeline
+- `data/resume.yaml` — experience and education entries; supports `url` field for hyperlinked org names
 - `data/publications.yaml` — grouped by year, rendered as image cards
-- `data/talks.yaml` — grouped by year, rendered as image cards
+- `data/talks.yaml` — grouped by year, rendered as image cards; supports `url` field linking to blog post or external
 
 Editing these YAML files updates the respective pages automatically.
 
@@ -79,6 +106,16 @@ Editing these YAML files updates the respective pages automatically.
 - Content width: `760px` globally (set via `--main-width` in custom.css)
 - Homepage uses full-bleed cover photo via negative margin trick (`100vw`)
 - All custom styles in `assets/css/extended/custom.css` — PaperMod picks this up automatically
+- Syntax highlighting: github (light) + github-dark (dark) Chroma themes defined in `custom.css`
+- `layouts/partials/cover.html` is a custom override that supports external URLs in `cover.image`
+
+## Comments
+
+giscus is set up via `layouts/partials/comments.html`, backed by GitHub Discussions on `GeneKao/geneatcg` (must remain public). The script is injected dynamically so the initial theme is read from `localStorage` (matching the site's light/dark toggle) rather than hardcoded.
+
+## Google Analytics
+
+Configured in `hugo.toml` via `googleAnalytics = 'G-QM94B0JX4Q'`. Only injected in production builds (not `hugo server`).
 
 ## Deployment
 
