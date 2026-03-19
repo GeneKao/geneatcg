@@ -878,3 +878,9 @@ a:hover {
 /* GenericUnderline */ [data-theme="dark"] .chroma .gl { text-decoration:underline }
 /* TextWhitespace */ [data-theme="dark"] .chroma .w { color:#6e7681 }
 
+/* KaTeX: make wide display equations scrollable on mobile */
+.katex-display {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
