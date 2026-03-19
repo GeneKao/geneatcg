@@ -38,7 +38,7 @@ $$\vec{v}_0 = V_1 - V_0, \quad \vec{v}_1 = V_2 - V_0, \quad \vec{v}_2 = P - V_0$
 
 Express $\vec{v}_2$ as a linear combination of $\vec{v}_0$ and $\vec{v}_1$:
 
-$$\vec{v}_2 = \beta\,\vec{v}_0 + \gamma\,\vec{v}_1$$
+$$\vec{v}_2 = \beta \cdot \vec{v}_0 + \gamma \cdot \vec{v}_1$$
 
 Take dot products of both sides with $\vec{v}_0$ and $\vec{v}_1$:
 
@@ -51,7 +51,7 @@ $$\begin{bmatrix} d_{00} & d_{01} \\\\ d_{01} & d_{11} \end{bmatrix} \begin{bmat
 
 ![Derivation setup — triangle, edge vectors, dot product system](derivation.png)
 
-Solving by matrix inverse (determinant = $d_{00} d_{11} - d_{01}^2$):
+Solving by matrix inverse (determinant = $d_{00} \cdot d_{11} - d_{01}^2$):
 
 $$\beta = \frac{d_{11} \cdot d_{20} - d_{01} \cdot d_{21}}{\text{denom}}, \quad \gamma = \frac{d_{00} \cdot d_{21} - d_{01} \cdot d_{20}}{\text{denom}}, \quad \alpha = 1 - \beta - \gamma$$
 
