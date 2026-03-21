@@ -49,7 +49,7 @@ Let $d_{ij} = \vec{v}_i \cdot \vec{v}_j$. The left-hand side entries are all dot
 
 $$\begin{bmatrix} d_{00} & d_{01} \\\\ d_{01} & d_{11} \end{bmatrix} \begin{bmatrix} \beta \\\\ \gamma \end{bmatrix} = \begin{bmatrix} d_{20} \\\\ d_{21} \end{bmatrix}$$
 
-![Derivation setup — triangle, edge vectors, dot product system](derivation.png)
+![Derivation setup — triangle, edge vectors, dot product system](derivation.jpg)
 
 Solving by matrix inverse (determinant = $d_{00} \cdot d_{11} - d_{01}^2$):
 

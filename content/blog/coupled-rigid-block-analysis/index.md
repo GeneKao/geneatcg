@@ -4,13 +4,13 @@ date: 2022-02-08
 description: "Our latest research on Coupled Rigid-Block Analysis (CRA) is published in the SCI journal Computer-Aided Design."
 tags: ["research", "computational-design", "geometry", "structures", "eth", "mathematics", "optimization", "open-source"]
 cover:
-  image: "cra_bridge.png"
+  image: "cra_bridge.jpg"
   alt: "Coupled Rigid-Block Analysis — Stability-Aware Design of Complex Discrete-Element Assemblies"
   relative: true
   hiddenInSingle: true
 ---
 
-[![Coupled Rigid-Block Analysis](cra_bridge.png)](https://doi.org/10.1016/j.cad.2022.103216)
+[![Coupled Rigid-Block Analysis](cra_bridge.jpg)](https://doi.org/10.1016/j.cad.2022.103216)
 
 I am thrilled to share our latest exciting research — **Coupled Rigid-Block Analysis (CRA)** — published in the SCI journal [*Computer-Aided Design*](https://doi.org/10.1016/j.cad.2022.103216).
 
