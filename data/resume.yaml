@@ -9,96 +9,106 @@ bio: |
   and design, with work and life experience in Sweden, Switzerland, Germany, and Taiwan.
 
 experience:
-  - org: Synopsys, Stockholm, Sweden · Remote
+  - org: Synopsys
+    location: Stockholm, Sweden · Remote
     url: "https://www.synopsys.com"
     roles:
       - period: "Jan 2026–Present"
         role: Senior Research & Development Engineer
         description: >
-          Continuing in the same role following the Ansys–Synopsys merger. Research
-          and build core geometric algorithms for CAD kernels and mesh generation.
+          Research and build core geometric algorithms for CAD kernels and mesh generation.
           Formulate complex computational geometry problems and deliver foundational
           algorithmic solutions that improve robustness, performance, and accuracy
           across simulation workflows.
       - period: "Jul 2025–Jan 2026"
         role: Research & Development Engineer II
+  - period: "Mar 2025–Present"
+    role: Expert Panel Member – Strategic Basic Research
+    org: Research Foundation Flanders (FWO)
+    location: Remote
+    url: "https://fwo.be/en/evaluation-process/fwo-expert-panels/sbwt9-construction-and-architecture-spatial-planning/"
   - period: "Jan 2023–Jul 2025"
     role: Research & Development Engineer II
-    org: Ansys, Stockholm, Sweden · Remote
+    org: Ansys
+    location: Stockholm, Sweden · Remote
     url: "https://www.ansys.com"
     description: >
       Researched, designed, and implemented geometric and meshing algorithms
       for CAD and simulation pipelines. Shaped problem formulations and developed
       foundational components that strengthened the Mesh Development Unit's
       geometric capabilities.
-  - period: "Mar 2025–Present"
-    role: Expert Panel Member – Strategic Basic Research
-    org: Research Foundation Flanders (FWO) · Remote
-    url: "https://fwo.be/en/evaluation-process/fwo-expert-panels/sbwt9-construction-and-architecture-spatial-planning/"
   - period: "Sep 2018–Dec 2022"
     role: PhD Researcher
-    org: ETH Zurich, Block Research Group / NCCR Digital Fabrication, Switzerland
-    url: "https://dfab.ch/"
+    org: ETH Zurich, Block Research Group / NCCR Digital Fabrication
+    location: Zurich, Switzerland
+    url: "https://dfab.ch/people/gene-t-kao-3"
     description: >
-      Researched computational geometry, digital fabrication, numerical
-      optimization, 3D geometry processing, and structural analysis & simulation.
-  - org: Autodesk Research, Simulation, Optimization & Systems (SOS) Group · Remote
+      Developed a computational framework for discrete shell structures that can be
+      constructed with minimal formwork, combining computational geometry, numerical
+      optimization, and structural analysis. Thesis:
+      ["Stability Assessment of Discrete Shell Structures during Assembly"](/blog/phd-dissertation/)
+      (supervisors: [Prof. Philippe Block](https://brg.ethz.ch/people/team/1),
+      [Prof. Stelian Coros](https://crl.ethz.ch/people/coros/)).
+  - org: Autodesk Research, Simulation, Optimization & Systems (SOS) Group
+    location: Remote
     url: "https://www.research.autodesk.com"
     roles:
       - period: "Mar 2022–Jun 2022"
-        role: Research Intern
-      - period: "Sep 2021–Nov 2021"
         role: Research Intern
         description: >
           Conducted original research developing novel techniques for structural and
           topology optimization for beam and truss frames. Architected and implemented
           prototypes of interactive applications with a structural optimization back-end
           (C++). Contributed to Autodesk Research's scientific software toolbox.
+      - period: "Sep 2021–Nov 2021"
+        role: Research Intern
   - period: "Jan–Feb 2019"
     role: Teaching Assistant
-    org: Massachusetts Institute of Technology, Shanghai, China
+    org: Massachusetts Institute of Technology
+    location: Shanghai, China
     url: "https://www.mit.edu"
     description: >
       Robotic Force Printing — MIT Design-Build Workshop 2019 (A Joint Workshop of MIT/ETH/TONGJI).
-  - org: STRABAG, Stuttgart, Germany
+  - org: STRABAG
+    location: Stuttgart, Germany
     url: "https://www.strabag.com"
     roles:
       - period: "Feb 2017–Jul 2018"
         role: Software Developer
         description: >
-          At STRABAG's Digitalisation and Software Engineering R&D division, contributed
-          to full-stack software solutions (PostgreSQL, Node.js, MongoDB, AngularJS,
-          Docker, GitLab CI/CD).
+          Contributed to full-stack software solutions in the Digitalisation and Software
+          Engineering R&D division (PostgreSQL, Node.js, MongoDB, AngularJS, Docker, GitLab CI/CD).
       - period: "Aug 2016–Feb 2017"
         role: Working Student
   - period: "Jul 2013–Aug 2014"
     role: Research and Teaching Assistant
-    org: Tamkang University, Taiwan
+    org: Tamkang University
+    location: Taiwan
     url: "https://english.tku.edu.tw/"
-    description: >
-      Worked at the CCC Lab specialising in Digital Fabrication and Computational
-      Geometry. Managed the TKU Digital Fabrication Factory and served as workshop
-      teaching assistant for programs including the AA Visiting School and AGD +
-      [uto] Robotic Fabrication Workshop.
 
 education:
   - period: "2018–23"
     degree: Doctor of Sciences (Dr. sc. ETH Zurich)
-    institution: ETH Zurich, Switzerland
+    institution: ETH Zurich
+    location: Zurich, Switzerland
     url: "https://ethz.ch"
     description: >
-      Thesis: "Stability Assessment of Discrete Shell Structures during Assembly".
-      Supervised by Prof. Dr. Philippe Block, co-supervised by Prof. Dr. Stelian Coros.
+      Thesis: ["Stability Assessment of Discrete Shell Structures during Assembly"](/blog/phd-dissertation/).
+      Supervised by [Prof. Dr. Philippe Block](https://brg.ethz.ch/people/team/1),
+      co-supervised by [Prof. Dr. Stelian Coros](https://crl.ethz.ch/people/coros/).
   - period: "2019–20"
-    degree: Certificate of Advanced Studies ETH in Computer Science
-    institution: ETH Zurich, Switzerland
-    url: "https://ethz.ch"
+    degree: CAS ETH in Computer Science
+    institution: ETH Zurich
+    location: Zurich, Switzerland
+    url: "https://inf.ethz.ch/continuing-education/certificate-program.html"
     description: "Major in Visual Computing"
   - period: "2014–16"
-    degree: Master of Science, ITECH (Integrated Technologies and Architectural Design Research)
-    institution: University of Stuttgart, Germany
-    url: "https://www.uni-stuttgart.de/en/"
+    degree: Master of Science, ITECH (Integrative Technologies and Architectural Design Research)
+    institution: University of Stuttgart
+    location: Stuttgart, Germany
+    url: "https://www.uni-stuttgart.de/en/study/study-programs/Integrative-Technologies-and-Architectural-Design-Research-ITECH-M.Sc./"
   - period: "2008–13"
     degree: Bachelor of Architecture
-    institution: Tamkang University, Taiwan
+    institution: Tamkang University
+    location: Taiwan
     url: "https://english.tku.edu.tw/"
