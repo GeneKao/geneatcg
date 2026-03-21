@@ -97,7 +97,7 @@ hugo new content/blog/my-post-title/index.md
 # Convert and compress PNG to JPG (adjust width and quality as needed)
 sips --resampleWidth 1600 image.png --out image.jpg -s format jpeg -s formatOptions 75
 ```
-Keep the original in the repo but add it to `ignoreFiles` in `hugo.toml` so it isn't deployed.
+Delete the original PNG after compressing — `ignoreFiles` in `hugo.toml` only applies to content files, not `static/`, so originals in `static/` will still be deployed if left in place.
 
 **Math posts:** Add `math: true` to front matter to enable KaTeX rendering. Use `$$...$$` for display math and `$...$` for inline. Wide equations scroll horizontally on mobile automatically.
 
@@ -105,9 +105,14 @@ Keep the original in the repo but add it to `ignoreFiles` in `hugo.toml` so it i
 
 ## Structured Data (resume, publications, talks)
 
-- `data/resume.yaml` — experience and education entries; supports `url` field for hyperlinked org names
 - `data/publications.yaml` — grouped by year, rendered as image cards
 - `data/talks.yaml` — grouped by year, rendered as image cards; supports `url` field linking to blog post or external
+- `data/resume.yaml` — experience and education entries. Key fields:
+  - `org` / `institution` — name only, no location
+  - `location` — shown as `period · location` on each entry; use `City, Country` or `City, Country · Remote`
+  - `url` — hyperlinks the org/institution name
+  - `description` — supports markdown (links, emphasis); rendered via `markdownify`
+  - `roles` — array for grouped entries (multiple roles at one org); each role has `period`, `role`, `description`
 
 Editing these YAML files updates the respective pages automatically.
 
