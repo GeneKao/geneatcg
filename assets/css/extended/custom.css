@@ -604,6 +604,29 @@ a:hover {
     color: var(--secondary);
 }
 
+.timeline-description {
+    font-size: 0.9rem;
+    color: var(--secondary);
+    margin-top: 0.4rem;
+    line-height: 1.6;
+}
+
+.timeline-org--company {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--primary);
+    margin-bottom: 0.4rem;
+}
+
+.timeline-subrole {
+    padding-left: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.timeline-subrole:not(.timeline-subrole--single) {
+    border-left: 2px solid var(--tertiary);
+}
+
 /* Recent post cards */
 .recent-post-card {
     display: grid;

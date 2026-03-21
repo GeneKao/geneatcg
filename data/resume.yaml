@@ -1,48 +1,100 @@
-bio: >
-  Senior Research & Development Engineer working on computational geometry,
-  geometry processing, and meshing algorithms for simulation and CAD software
-  at Synopsys (formerly Ansys). PhD from ETH Zurich. Interdisciplinary background
-  across engineering, computer science, architecture, and design, with work and
-  life experience in Sweden, Switzerland, Germany, and Taiwan.
+bio: |
+  I am a Senior Research & Development Engineer working on computational geometry,
+  geometry processing, and meshing algorithms for simulation and CAD software at
+  Synopsys (formerly Ansys).
+
+  I focus on rigorously formulating problems and translating theory into robust,
+  production-quality software. I hold a Doctor of Sciences from ETH Zurich and have
+  an interdisciplinary background across engineering, computer science, architecture,
+  and design, with work and life experience in Sweden, Switzerland, Germany, and Taiwan.
 
 experience:
-  - period: "2026–"
-    role: Senior R&D Engineer
-    org: Synopsys, Sweden Remote
+  - org: Synopsys, Stockholm, Sweden · Remote
     url: "https://www.synopsys.com"
-  - period: "2023–26"
-    role: R&D Engineer II
-    org: Ansys, Sweden Remote
+    roles:
+      - period: "Jan 2026–Present"
+        role: Senior Research & Development Engineer
+        description: >
+          Continuing in the same role following the Ansys–Synopsys merger. Research
+          and build core geometric algorithms for CAD kernels and mesh generation.
+          Formulate complex computational geometry problems and deliver foundational
+          algorithmic solutions that improve robustness, performance, and accuracy
+          across simulation workflows.
+      - period: "Jul 2025–Jan 2026"
+        role: Research & Development Engineer II
+  - period: "Jan 2023–Jul 2025"
+    role: Research & Development Engineer II
+    org: Ansys, Stockholm, Sweden · Remote
     url: "https://www.ansys.com"
-  - period: "2018–22"
+    description: >
+      Researched, designed, and implemented geometric and meshing algorithms
+      for CAD and simulation pipelines. Shaped problem formulations and developed
+      foundational components that strengthened the Mesh Development Unit's
+      geometric capabilities.
+  - period: "Mar 2025–Present"
+    role: Expert Panel Member – Strategic Basic Research
+    org: Research Foundation Flanders (FWO) · Remote
+    url: "https://fwo.be/en/evaluation-process/fwo-expert-panels/sbwt9-construction-and-architecture-spatial-planning/"
+  - period: "Sep 2018–Dec 2022"
     role: PhD Researcher
     org: ETH Zurich, Block Research Group / NCCR Digital Fabrication, Switzerland
     url: "https://dfab.ch/"
-  - period: "2021–22"
-    role: Research Intern
-    org: Autodesk Research, Simulation, Optimization & Systems (SOS) Group, Remote
+    description: >
+      Researched computational geometry, digital fabrication, numerical
+      optimization, 3D geometry processing, and structural analysis & simulation.
+  - org: Autodesk Research, Simulation, Optimization & Systems (SOS) Group · Remote
     url: "https://www.research.autodesk.com"
-  - period: "2016–18"
+    roles:
+      - period: "Mar 2022–Jun 2022"
+        role: Research Intern
+      - period: "Sep 2021–Nov 2021"
+        role: Research Intern
+        description: >
+          Conducted original research developing novel techniques for structural and
+          topology optimization for beam and truss frames. Architected and implemented
+          prototypes of interactive applications with a structural optimization back-end
+          (C++). Contributed to Autodesk Research's scientific software toolbox.
+  - period: "Jan 2019"
+    role: Teaching Assistant
+    org: Massachusetts Institute of Technology, Shanghai, China
+    url: "https://www.mit.edu"
+    description: >
+      Robotic Force Printing — MIT Design-Build Workshop 2019 (A Joint Workshop of MIT/ETH/TONGJI).
+  - period: "Aug 2016–Jul 2018"
     role: Software Developer / Project Engineer
-    org: Strabag / Ed. Züblin, Germany
+    org: STRABAG / Ed. Züblin, Stuttgart, Germany
     url: "https://www.zueblin.de/en"
-  - period: "2013–14"
+    description: >
+      At STRABAG's Digitalisation and Software Engineering R&D division, contributed
+      to full-stack software solutions (PostgreSQL, Node.js, MongoDB, AngularJS,
+      Docker, GitLab CI/CD). At Ed. Züblin, participated in construction and research
+      projects including Stuttgart-21, Siemens Zug, and the nationally-funded SolConPro.
+  - period: "Jul 2013–Aug 2014"
     role: Research and Teaching Assistant
     org: Tamkang University, Taiwan
     url: "https://english.tku.edu.tw/"
+    description: >
+      Worked at the CCC Lab specialising in Digital Fabrication and Computational
+      Geometry. Managed the TKU Digital Fabrication Factory and served as workshop
+      teaching assistant for programs including the AA Visiting School and AGD +
+      [uto] Robotic Fabrication Workshop.
 
 education:
   - period: "2018–23"
-    degree: Doctor of Sciences
+    degree: Doctor of Sciences (Dr. sc. ETH Zurich)
     institution: ETH Zurich, Switzerland
     url: "https://ethz.ch"
+    description: >
+      Thesis: "Stability Assessment of Discrete Shell Structures during Assembly".
+      Supervised by Prof. Dr. Philippe Block, co-supervised by Prof. Dr. Stelian Coros.
   - period: "2019–20"
-    degree: Certificate of Advanced Studies ETH in Computer Science, Major in Visual Computing
+    degree: Certificate of Advanced Studies ETH in Computer Science
     institution: ETH Zurich, Switzerland
     url: "https://ethz.ch"
+    description: "Major in Visual Computing"
   - period: "2014–16"
-    degree: Master of Science in Integrated Technologies and Architectural Design Research
-    institution: Stuttgart University, Germany
+    degree: Master of Science, ITECH (Integrated Technologies and Architectural Design Research)
+    institution: University of Stuttgart, Germany
     url: "https://www.uni-stuttgart.de/en/"
   - period: "2008–13"
     degree: Bachelor of Architecture
