@@ -54,21 +54,23 @@ experience:
           topology optimization for beam and truss frames. Architected and implemented
           prototypes of interactive applications with a structural optimization back-end
           (C++). Contributed to Autodesk Research's scientific software toolbox.
-  - period: "Jan 2019"
+  - period: "Jan–Feb 2019"
     role: Teaching Assistant
     org: Massachusetts Institute of Technology, Shanghai, China
     url: "https://www.mit.edu"
     description: >
       Robotic Force Printing — MIT Design-Build Workshop 2019 (A Joint Workshop of MIT/ETH/TONGJI).
-  - period: "Aug 2016–Jul 2018"
-    role: Software Developer / Project Engineer
-    org: STRABAG / Ed. Züblin, Stuttgart, Germany
-    url: "https://www.zueblin.de/en"
-    description: >
-      At STRABAG's Digitalisation and Software Engineering R&D division, contributed
-      to full-stack software solutions (PostgreSQL, Node.js, MongoDB, AngularJS,
-      Docker, GitLab CI/CD). At Ed. Züblin, participated in construction and research
-      projects including Stuttgart-21, Siemens Zug, and the nationally-funded SolConPro.
+  - org: STRABAG, Stuttgart, Germany
+    url: "https://www.strabag.com"
+    roles:
+      - period: "Feb 2017–Jul 2018"
+        role: Software Developer
+        description: >
+          At STRABAG's Digitalisation and Software Engineering R&D division, contributed
+          to full-stack software solutions (PostgreSQL, Node.js, MongoDB, AngularJS,
+          Docker, GitLab CI/CD).
+      - period: "Aug 2016–Feb 2017"
+        role: Working Student
   - period: "Jul 2013–Aug 2014"
     role: Research and Teaching Assistant
     org: Tamkang University, Taiwan
