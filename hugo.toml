@@ -5,7 +5,7 @@ title = 'GENEATCG'
 theme = 'PaperMod'
 paginate = 10
 enableRobotsTXT = true
-ignoreFiles = ['content/404\\.html', '\\.lr$', 'static/images/cover\\.png', 'cra_bridge\\.png', 'derivation\\.png']
+ignoreFiles = ['content/404\\.html', '\\.lr$', 'static/images/cover\\.png']
 
 [params]
   defaultTheme = 'light'
