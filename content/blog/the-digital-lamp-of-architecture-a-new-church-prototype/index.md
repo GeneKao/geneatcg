@@ -31,5 +31,5 @@ In the Digital Lamp of Architecture – A New Church Prototype, Antoni Gaudí's 
 
 
 
-<blockquote class="embedly-card"><h4><a href="https://issuu.com/kao.gene/docs/kaotingchunportfolioprint">Computation and Aesthetics</a></h4><p>Gene Kao, Ting-Chun portfolio 2008-2013</p></blockquote>
+<blockquote class="embedly-card"><h4><a href="/blog/computation-and-aesthetics/">Computation and Aesthetics</a></h4><p>Gene Kao, Ting-Chun portfolio 2008-2013</p></blockquote>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
