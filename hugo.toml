@@ -17,11 +17,12 @@ ignoreFiles = ['content/404\\.html', '\\.lr$', 'static/images/cover\\.png']
   ShowBreadCrumbs = false
   ShowCodeCopyButtons = true
   ShowToc = false
-  [params.analytics.google]
-    SiteVerificationTag = "z_tLCRRvWGbJ17eHKX3niS17SFFIamIw_jgLXvqqJFM"
   description = "Gene Ting-Chun Kao — Computational Geometry, Geometry Processing, Research"
   author = "Gene Ting-Chun Kao"
   images = ["images/cover.jpg"]
+
+[params.analytics.google]
+  SiteVerificationTag = "z_tLCRRvWGbJ17eHKX3niS17SFFIamIw_jgLXvqqJFM"
 
 [[params.socialIcons]]
   name = "github"
