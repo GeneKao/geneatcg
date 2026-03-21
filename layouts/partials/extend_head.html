@@ -1,3 +1,29 @@
 {{- if .Params.math }}
   {{- partial "math.html" . }}
 {{- end }}
+
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Gene Ting-Chun Kao",
+  "url": "https://www.geneatcg.com",
+  "description": "Computational geometry engineer and researcher working on geometry processing, meshing, and computational design.",
+  "jobTitle": "Senior Research & Development Engineer",
+  "honorificSuffix": "Dr. sc. ETH Zurich",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Synopsys"
+  },
+  "alumniOf": {
+    "@type": "EducationalOrganization",
+    "name": "ETH Zurich"
+  },
+  "sameAs": [
+    "https://github.com/GeneKao",
+    "https://www.linkedin.com/in/kaogene"
+  ]
+}
+</script>
+{{- end }}

@@ -5,7 +5,7 @@ title = 'GENEATCG'
 theme = 'PaperMod'
 paginate = 10
 enableRobotsTXT = true
-ignoreFiles = ['content/404\\.html', '\\.lr$']
+ignoreFiles = ['content/404\\.html', '\\.lr$', 'static/images/cover\\.png']
 
 [params]
   defaultTheme = 'light'
@@ -17,6 +17,7 @@ ignoreFiles = ['content/404\\.html', '\\.lr$']
   ShowBreadCrumbs = false
   ShowCodeCopyButtons = true
   ShowToc = false
+  googleSiteVerify = "z_tLCRRvWGbJ17eHKX3niS17SFFIamIw_jgLXvqqJFM"
   description = "Gene Ting-Chun Kao — Computational Geometry, Geometry Processing, Research"
   author = "Gene Ting-Chun Kao"
   images = ["images/cover.jpg"]
