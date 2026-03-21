@@ -17,6 +17,8 @@ Feel free to explore the code, borrow ideas, or open an issue if you spot someth
 - Google Analytics (GA4)
 - Automated deployment to GitHub Pages via GitHub Actions
 - RSS feed + JSON search index
+- KaTeX math rendering (enabled per-post with `math: true`)
+- SEO: JSON-LD Person schema, `llms.txt` for AI crawlers, sitemap, Google Search Console
 
 ## Setup
 

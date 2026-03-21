@@ -92,6 +92,17 @@ To add a new post:
 hugo new content/blog/my-post-title/index.md
 ```
 
+**Image compression:** Always compress images before adding to posts. Large images are the main mobile performance bottleneck. Use `sips` on macOS:
+```sh
+# Convert and compress PNG to JPG (adjust width and quality as needed)
+sips --resampleWidth 1600 image.png --out image.jpg -s format jpeg -s formatOptions 75
+```
+Keep the original in the repo but add it to `ignoreFiles` in `hugo.toml` so it isn't deployed.
+
+**Math posts:** Add `math: true` to front matter to enable KaTeX rendering. Use `$$...$$` for display math and `$...$` for inline. Wide equations scroll horizontally on mobile automatically.
+
+**Geometry Toolbox series:** Tag posts with `geometry-toolbox` to group them as a series.
+
 ## Structured Data (resume, publications, talks)
 
 - `data/resume.yaml` — experience and education entries; supports `url` field for hyperlinked org names
