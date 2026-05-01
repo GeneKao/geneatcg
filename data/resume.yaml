@@ -91,6 +91,22 @@ experience:
     location: Taiwan
     url: "https://english.tku.edu.tw/"
 
+volunteering:
+  - period: "Apr 2025–Apr 2026"
+    role: President
+    org: Taiwanese Junior Chamber of Commerce in Sweden (TCCSJC)
+    location: Sweden
+    url: "/blog/tccsjc-sweden-president/"
+    description: >
+      Led a volunteer organization for Taiwanese professionals under 40 in Sweden.
+  - period: "Jun 2011–May 2012"
+    role: 49th President, Architecture Department Student Association
+    org: Tamkang University
+    location: Taiwan
+    url: "https://english.tku.edu.tw/"
+    description: >
+      Organized over ten school-wide and interschool events.
+
 education:
   - period: "2018–23"
     degree: Doctor of Sciences (Dr. sc. ETH Zurich)
