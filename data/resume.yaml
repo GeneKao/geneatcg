@@ -1,5 +1,5 @@
 bio: |
-  I am a Senior Research & Development Engineer working on computational geometry,
+  I am a Staff Research & Development Engineer working on computational geometry,
   geometry processing, and meshing algorithms for simulation and CAD software at
   Synopsys (formerly Ansys).
 
@@ -13,13 +13,15 @@ experience:
     location: Stockholm, Sweden · Remote
     url: "https://www.synopsys.com"
     roles:
-      - period: "Jan 2026–Present"
-        role: Senior Research & Development Engineer
+      - period: "May 2026–Present"
+        role: Staff Research & Development Engineer
         description: >
           Research and build core geometric algorithms for CAD kernels and mesh generation.
           Formulate complex computational geometry problems and deliver foundational
           algorithmic solutions that improve robustness, performance, and accuracy
           across simulation workflows.
+      - period: "Jan 2026–May 2026"
+        role: Senior Research & Development Engineer
       - period: "Jul 2025–Jan 2026"
         role: Research & Development Engineer II
   - period: "Mar 2025–Present"
