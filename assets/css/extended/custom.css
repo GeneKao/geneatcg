@@ -15,7 +15,7 @@
 }
 
 /* Light mode: fix hardcoded light-grey text color in pre code */
-.post-content pre code {
+:root:not([data-theme="dark"]) .post-content pre code {
     color: #1f2328;
 }
 
